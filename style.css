@@ -30,7 +30,7 @@ html {
 
 body {
 
-  font-family: reason-new, sans-serif !important;
+  font-family: Inter, sans-serif !important;
 
   /* Make the text nice and crisp */
   -webkit-font-smoothing: antialiased;
@@ -46,7 +46,7 @@ strong {
 
 /* Styling for page names */
 .notion-header__title {
-  font-weight: 700 !important;
+  font-weight: 400 !important;
   font-size: 0.75rem !important;
   line-height: 1.25 !important;
   min-height: auto !important;
