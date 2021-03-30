@@ -257,8 +257,8 @@ h3.notion-heading {
 
 /* Override default card styling */
 .notion-collection-card {
-  border-radius: 15 !important;
-  box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.15) !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
   margin-bottom: 44px !important;
 }
 @media screen and (min-width: 370px) {
@@ -286,6 +286,7 @@ h3.notion-heading {
   position: relative !important;
   height: auto !important;
   width: 100% !important;
+  box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.15);
   border-radius: 0  !important;
   object-fit: contain !important;
   object-position: initial !important;
