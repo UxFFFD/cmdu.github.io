@@ -153,8 +153,8 @@ h3.notion-heading {
 @media screen and (min-width: 30em) {
   .nav {
     align-items: center;
-    padding: 0 50px;
-    height: 120px;
+    padding: 0 40px;
+    height: 84px;
     flex-direction: row;
   }
 }
@@ -169,7 +169,7 @@ h3.notion-heading {
   transition: all .3s ease-in-out;
   justify-content: center;
   align-items: center;
-  padding: 0 30px 0 0;
+  padding: 0 25px 0 0;
   display: flex;
   height: 100%;
   font-size: 1.5rem;
