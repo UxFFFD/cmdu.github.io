@@ -31,8 +31,8 @@ html {
 /* Sneak Regular font-family */
 @font-face {
   font-family: 'Sneak';
-  src: url('ttps://cmdu.github.io/hypernormal/fonts/Sneak.woff2') format('woff2');
-  src: url('ttps://cmdu.github.io/hypernormal/fonts/Sneak.woff') format('woff');
+  src: url('https://cmdu.github.io/hypernormal/fonts/Sneak-Regular.woff2') format('woff2');
+  src: url('https://cmdu.github.io/hypernormal/fonts/Sneak-Regular.woff') format('woff');
   font-weight: 400;
   font-style: normal;
 }
