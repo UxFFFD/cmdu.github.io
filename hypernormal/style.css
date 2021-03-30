@@ -281,12 +281,12 @@ h3.notion-heading {
   height: auto !important;
   min-height: none !important;
   border-bottom: none !important;
+  box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.15) !important;
 }
 .notion-collection-card__cover img {
   position: relative !important;
   height: auto !important;
   width: 100% !important;
-  box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.15) !important;
   border-radius: 15px  !important;
   object-fit: contain !important;
   object-position: initial !important;
