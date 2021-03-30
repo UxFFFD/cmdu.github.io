@@ -275,6 +275,8 @@ h3.notion-heading {
   max-height: none !important;
 }
 .notion-collection-card__cover.large>div {
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25) !important;
+  border-radius: 15px !important;
   position: relative !important;
 }
 .notion-collection-card__cover {
@@ -292,8 +294,6 @@ h3.notion-heading {
   padding-bottom: 0  !important;
 }
 .notion-collection-card__content {
-  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25) !important;
-  border-radius: 15px !important;
   padding-bottom: 0 !important;
   padding-left: 0 !important;
   font-size: 1rem !important;
