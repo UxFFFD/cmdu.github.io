@@ -286,7 +286,7 @@ h3.notion-heading {
   position: relative !important;
   height: auto !important;
   width: 100% !important;
-  box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.15) !important;
   border-radius: 0  !important;
   object-fit: contain !important;
   object-position: initial !important;
