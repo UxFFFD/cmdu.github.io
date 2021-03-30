@@ -28,26 +28,16 @@ html {
   }
 }
 
-/* Inter Variable Font Family */
+/* Sneak Regular font-family */
 @font-face {
-  font-family: 'Inter var';
-  font-weight: 100 900;
-  font-display: swap;
+  font-family: 'Sneak-Regular';
+  src: url('ttps://cmdu.github.io/hypernormal/fonts/Sneak-Regular.woff2') format('woff2');
+  font-weight: 400;
   font-style: normal;
-  font-named-instance: 'Regular';
-  src: url("https://cmdu.github.io/hypernormal/fonts/Inter-roman.var.woff2?v=3.15") format("woff2");
-}
-@font-face {
-  font-family: 'Inter var';
-  font-weight: 100 900;
-  font-display: swap;
-  font-style: italic;
-  font-named-instance: 'Italic';
-  src: url("https://cmdu.github.io/hypernormal/fonts/Inter-italic.var.woff2?v=3.15") format("woff2");
 }
 
 body {
-  font-family: 'Inter var', sans-serif !important;
+  font-family: 'Sneak-Regular', sans-serif !important;
 
   /* Make the text nice and crisp */
   -webkit-font-smoothing: antialiased;
