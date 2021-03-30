@@ -283,9 +283,9 @@ h3.notion-heading {
 }
 .notion-collection-card__cover img {
   position: relative !important;
-  height: 60% !important;
+  height: auto !important;
   width: 100% !important;
-  border-radius: 0  !important;
+  border-radius: 15px  !important;
   object-fit: contain !important;
   object-position: initial !important;
   padding-bottom: 0  !important;
