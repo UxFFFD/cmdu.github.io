@@ -277,7 +277,7 @@ h3.notion-heading {
 .notion-collection-card__cover.large>div {
   position: relative !important;
   box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.15) !important;
-  border-radius: 15px;
+  border-radius: 15px !important;
 }
 .notion-collection-card__cover {
   height: auto !important;
