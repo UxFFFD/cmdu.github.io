@@ -273,12 +273,12 @@ h3.notion-heading {
 .notion-collection-card__cover.large, .notion-collection-card__cover.large>div, .notion-collection-card__cover.large img, .notion-collection-card__cover.medium, .notion-collection-card__cover.medium>div, .notion-collection-card__cover.medium img {
   height: auto !important;
   max-height: none !important;
+}
+.notion-collection-card__cover.large>div {
   -webkit-box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.15) !important;
   -moz-box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.15) !important;
   box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.15) !important;
-  /* border-radius: 30px !important; */
-}
-.notion-collection-card__cover.large>div {
+  border-radius: 30px !important;
   position: relative !important;
 }
 .notion-collection-card__cover {
