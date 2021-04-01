@@ -343,6 +343,7 @@ h3.notion-heading {
 /* Adjust pill styling */
 .notion-pill {
   font-size: 1rem !important;
+  letter-spacing: 0.01rem;
   border-radius: 0px !important;
   line-height: 24px !important;
   margin: 2px 0 !important;
