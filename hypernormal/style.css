@@ -96,7 +96,7 @@ h1.notion-heading .notion-semantic-string, .notion-page__property .notion-proper
 }
 @media screen and (min-width: 50em) {
   h1.notion-heading .notion-semantic-string, .notion-page__property .notion-property__text .notion-semantic-string {
-    font-size: 4rem !important;
+    font-size: 3rem !important;
   }
 }
 /* H2 */
