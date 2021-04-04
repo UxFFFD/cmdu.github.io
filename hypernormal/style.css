@@ -311,11 +311,11 @@ h3.notion-heading {
 /* Display text property as a heading */
 .notion-collection-card__property .notion-semantic-string {
   display: block !important;
-  margin: 2em 0 0.2em !important;
+  margin: 1.5em 0 0.1em !important;
   font-family: 'Sneak', sans-serif !important;
   font-weight: 400 !important;
   font-size: 1.5rem !important;
-  line-height: 1.3 !important;
+  line-height: 1.2 !important;
   white-space: normal !important;
 }
 
@@ -342,10 +342,10 @@ h3.notion-heading {
 
 /* Adjust pill styling */
 .notion-pill {
-  font-size: 1rem !important;
-  letter-spacing: 0.01rem;
+  font-size: 1.1rem !important;
+  letter-spacing: 0.002rem;
   border-radius: 0px !important;
-  line-height: 24px !important;
+  line-height: 1rem !important;
   margin: 2px 0 !important;
   padding: 0 !important;
   display: inline !important;
@@ -511,10 +511,11 @@ Article view: [id*="writing-"] becomes [id*="journal-"]
   display: none !important;
 }
 
-/* Resets font size of date */
+/* Resets font size of text */
 .notion-collection-list__item-property .notion-property__text .notion-semantic-string {
   font-size: 1rem !important;
-  line-height: 1.7 !important;
+  letter-spacing: .002rem !important;
+  line-height: 1.47 !important;
 }
 
 /* Resets font size of date */
@@ -530,8 +531,9 @@ Article view: [id*="writing-"] becomes [id*="journal-"]
 
 /* Set colour and size of date */
 .notion-collection-list__item-property .notion-property__date .notion-semantic-string .date {
-  color: var(--color-text-gray) !important;
-  font-size: 0.875rem !important;
+  color: #303030 !important;
+  font-size: 0.8rem !important;
+  letter-spacing: .005rem;
 }
 
 /* Styles for title */
