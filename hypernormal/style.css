@@ -28,13 +28,21 @@ html {
   }
 }
 
-/* Sneak Regular font-family */
+/* Sneak font-family */
 @font-face {
   font-family: 'Sneak';
   src: url('https://cmdu.github.io/hypernormal/fonts/Sneak-Regular.woff2') format('woff2');
   src: url('https://cmdu.github.io/hypernormal/fonts/Sneak-Regular.woff') format('woff');
   font-weight: 400;
   font-style: normal;
+}
+
+@font-face {
+  font-family: 'Sneak';
+  src: url('https://cmdu.github.io/hypernormal/fonts/Sneak-Regular-Italic.woff2') format('woff2');
+  src: url('https://cmdu.github.io/hypernormal/fonts/Sneak-Regular-Italic.woff') format('woff');
+  font-weight: 400;
+  font-style: italic;
 }
 
 body {
