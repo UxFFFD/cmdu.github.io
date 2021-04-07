@@ -180,7 +180,7 @@ h3.notion-heading {
   padding: 0 25px 0 0;
   display: flex;
   height: 100%;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 400;
   color: var(--color-text-default);
   text-decoration: none;
@@ -296,7 +296,7 @@ h3.notion-heading {
   position: relative !important;
   height: auto !important;
   width: 100% !important;
-  border-radius: 15px  !important;
+  border-radius: 16px  !important;
   object-fit: contain !important;
   object-position: initial !important;
   padding-bottom: 0  !important;
