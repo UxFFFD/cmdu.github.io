@@ -296,7 +296,7 @@ h3.notion-heading {
   position: relative !important;
   height: auto !important;
   width: 100% !important;
-  border-radius: 16px  !important;
+  border-radius: 1rem  !important;
   object-fit: contain !important;
   object-position: initial !important;
   padding-bottom: 0  !important;
@@ -319,11 +319,11 @@ h3.notion-heading {
 /* Display text property as a heading */
 .notion-collection-card__property .notion-semantic-string {
   display: block !important;
-  margin: 1.5em 0 0.1em !important;
+  margin: 1em 0 0.2em !important;
   font-family: 'Sneak', sans-serif !important;
   font-weight: 400 !important;
   font-size: 1.5rem !important;
-  line-height: 1.4 !important;
+  line-height: 1.2 !important;
   white-space: normal !important;
 }
 
