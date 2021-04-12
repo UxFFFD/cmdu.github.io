@@ -54,6 +54,13 @@ body {
 
   /* Improve kerning for good measure */
   text-rendering: optimizeLegibility;
+
+  /* Hyphenate beautifully (german) */
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
 }
 
 strong {
