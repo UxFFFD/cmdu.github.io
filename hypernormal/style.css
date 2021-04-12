@@ -54,11 +54,6 @@ body {
 
   /* Improve kerning for good measure */
   text-rendering: optimizeLegibility;
-
-  /* Hyphenate */
-  -webkit-hyphens: auto !important;
-  -ms-hyphens: auto !important;
-  hyphens: auto !important;
 }
 
 strong {
