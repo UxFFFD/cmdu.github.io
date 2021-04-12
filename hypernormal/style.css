@@ -24,7 +24,7 @@ html {
 /* Increase base font size for large screens */
 @media screen and (min-width: 50em) {
   html {
-    /* font-size: 18px !important; */
+    font-size: 18px !important;
   }
 }
 
@@ -181,7 +181,7 @@ h3.notion-heading {
   padding: 0 25px 0 0;
   display: flex;
   height: 100%;
-  font-size: 1.5rem;
+  font-size: 1.2em;
   font-weight: 400;
   color: var(--color-text-default);
   text-decoration: none;
