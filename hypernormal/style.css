@@ -181,7 +181,7 @@ h3.notion-heading {
   padding: 0 25px 0 0;
   display: flex;
   height: 100%;
-  font-size: 1.2em;
+  font-size: 1.2;
   font-weight: 400;
   color: var(--color-text-default);
   text-decoration: none;
