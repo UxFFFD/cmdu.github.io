@@ -105,7 +105,7 @@ h1.notion-heading .notion-semantic-string, .notion-page__property .notion-proper
 }
 @media screen and (min-width: 50em) {
   h1.notion-heading .notion-semantic-string, .notion-page__property .notion-property__text .notion-semantic-string {
-    font-size: 3.25rem !important;
+    font-size: 3rem !important;
   }
 }
 /* H2 */
@@ -181,7 +181,7 @@ h3.notion-heading {
   padding: 0 25px 0 0;
   display: flex;
   height: 100%;
-  font-size: 1.2;
+  font-size: 1.2rem;
   font-weight: 400;
   color: var(--color-text-default);
   text-decoration: none;
