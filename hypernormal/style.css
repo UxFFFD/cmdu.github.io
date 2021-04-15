@@ -186,7 +186,7 @@ h3.notion-heading {
   padding: 0 25px 0 0;
   display: flex;
   height: 100%;
-  font-size: 1.2rem;
+  font-size: 1.25rem;
   font-weight: 400;
   color: var(--color-text-default);
   text-decoration: none;
@@ -229,20 +229,21 @@ h3.notion-heading {
 
 /* --- Adjust quote styling so it can be used as a standfirst --- */
 .notion-quote {
-  border-left: 0px!important;
-  padding: 0!important;
-  margin: .5rem 0 1rem!important;
+  border-left: 0px !important;
+  padding: 0 !important;
+  margin: .5rem 0 1rem !important;
+  font-size: 1.25rem !important;
 }
 
 /* --- Change handling of full width images --- */
 .notion-image.full-width img {
-  object-fit: fill!important;
-  height: auto!important;
+  object-fit: fill !important;
+  height: auto !important;
 }
 
 /* --- Change Image caption alignment --- */
 .notion-image.page-width>figcaption, .notion-image.full-width>figcaption {
-  text-align: center!important;
+  text-align: center !important;
 }
 
 /* --- PROJECTS LISTING --- */
