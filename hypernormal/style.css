@@ -5,7 +5,7 @@ html {
 }
 
 * {
-  cursor:url('https://cmdu.github.io/hypernormal/hand.png');
+  cursor:url('https://cmdu.github.io/hypernormal/hand.png'), auto !important;
 }
 
 /* --- Change default colors --- */
