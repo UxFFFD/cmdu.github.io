@@ -780,12 +780,10 @@ animation: fadeIn 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1s both;
   display: none !important;
 }
 /* Reinstate usual styling of links */
-.notion-collection-table td .notion-semantic-string .link {
-  /* opacity: .7 !important;
+/* .notion-collection-table td .notion-semantic-string .link {
+  opacity: .7 !important;
   transition: opacity .1s ease-in;
 } */
-  /* border-bottom: none; */
-}
 /* .notion-collection-table td .notion-semantic-string .link:hover {
   opacity: 1 !important;
 } */
