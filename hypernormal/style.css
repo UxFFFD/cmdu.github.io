@@ -311,7 +311,7 @@ h3.notion-heading {
 }
 .notion-collection-card__content {
   padding-bottom: 0 !important;
-/*   padding-left: 0 !important; */
+  padding-left: 0 !important;
   font-size: 1rem !important;
   overflow: hidden;
 }
@@ -330,21 +330,21 @@ h3.notion-heading {
   margin: 1.25em 0 0.1em !important;
   font-family: 'Sneak', sans-serif !important;
   font-weight: 400 !important;
-  font-size: 1.5rem !important;
+  font-size: 1.25rem !important;
 /*   text-transform: uppercase; */
-/*   font-style: italic; */
-  line-height: 1.5 !important;
+  font-style: italic;
+  /* line-height: 1.5 !important; */
   white-space: normal !important;
 }
 
-/* Add underline to title on hover of project card */
+/* Add underline to title on hover of project card
 .notion-collection-card.gallery .notion-collection-card__property .notion-semantic-string span {
   border-bottom: 1px solid transparent !important;
   transition: border-color .2s ease-in;
 }
 .notion-collection-card.gallery:hover .notion-collection-card__property .notion-semantic-string span {
   border-bottom: 1px solid blue !important;
-}
+} */
 
 /* Increase spacing between project meta data */
 .notion-collection-card__property {
@@ -361,8 +361,7 @@ h3.notion-heading {
 /* Adjust pill styling */
 .notion-pill {
   font-size: 1.25rem !important;
-      font-style: italic;
-
+  /* font-style: italic; */
   /* letter-spacing: 0.002rem; */
   border-radius: 0px !important;
   line-height: 1rem !important;
