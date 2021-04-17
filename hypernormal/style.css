@@ -4,8 +4,15 @@ html {
   -webkit-text-size-adjust: 100%; /* Prevent font scaling in landscape while allowing user zoom */
 }
 
+
 * {
-  cursor:url('https://cmdu.github.io/hypernormal/hand.png'), auto !important;
+  cursor:url('https://cmdu.github.io/hypernormal/handvii.png'), auto !important;
+}
+a {
+  cursor:url('https://cmdu.github.io/hypernormal/handvii.png'), auto !important;
+}
+a:hover {
+  cursor:url('https://cmdu.github.io/hypernormal/handviir.png'), auto !important;  
 }
 
 /* --- Change default colors --- */
@@ -774,12 +781,14 @@ animation: fadeIn 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1s both;
 }
 /* Reinstate usual styling of links */
 .notion-collection-table td .notion-semantic-string .link {
-  opacity: .7 !important;
+  /* opacity: .7 !important;
   transition: opacity .1s ease-in;
+} */
+  border-bottom: none;
 }
-.notion-collection-table td .notion-semantic-string .link:hover {
+/* .notion-collection-table td .notion-semantic-string .link:hover {
   opacity: 1 !important;
-}
+} */
 /* Don’t truncate content on small screens */
 .notion-collection-table__cell .notion-semantic-string {
   white-space: normal !important;
