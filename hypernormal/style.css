@@ -103,7 +103,6 @@ h1.notion-heading, .notion-page__properties .notion-property__text {
   font-size: 2.5rem !important;
   letter-spacing: -0.06rem !important;
   max-width: 660px !important;
-  margin-left: 5px !important;
 }
 /* h1.notion-heading .notion-semantic-string, .notion-page__property .notion-property__text .notion-semantic-string {
   line-height: 1.2 !important;
@@ -184,7 +183,7 @@ h3.notion-heading {
   transition: all .3s ease-in-out;
   justify-content: center;
   align-items: center;
-  padding: 0 15px 0 0;
+  padding: 0 17px 0 0;
   display: flex;
   height: 100%;
   font-size: 1.25rem;
