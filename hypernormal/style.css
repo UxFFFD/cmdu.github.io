@@ -407,7 +407,7 @@ h3.notion-heading {
 .notion-header__content.no-icon.has-cover .notion-header__title-wrapper {
   margin-top: 0 !important;
 }
-article[id*="projects-"] .notion-page__property > .property-49775679 .notion-pill {
+article[id*="integration-"] .notion-page__property > .property-49775679 .notion-pill {
   font-weight: 400 !important;
   font-size: 1.25rem !important;
   line-height: 1.25 !important;
@@ -698,6 +698,7 @@ figcaption a {
   margin-bottom: 1.25em !important;
   padding-left: 1.5em !important;
   border-left: 4px solid #c7cad2 !important;
+  hyphens: auto;
 }
 
 /* Style lists */
