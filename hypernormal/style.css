@@ -6,13 +6,13 @@ html {
 
 
 * {
-  cursor:url('https://cmdu.github.io/hypernormal/handvii.png'), auto !important;
+  cursor:url('https://cmdu.github.io/hypernormal/c0.png'), auto !important;
 }
 a {
-  cursor:url('https://cmdu.github.io/hypernormal/handvii.png'), auto !important;
+  cursor:url('https://cmdu.github.io/hypernormal/c0.png'), auto !important;
 }
 a:hover {
-  cursor:url('https://cmdu.github.io/hypernormal/handviir.png'), auto !important;  
+  cursor:url('https://cmdu.github.io/hypernormal/c15.png'), auto !important;  
 }
 
 /* --- Change default colors --- */
