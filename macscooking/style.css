@@ -5,34 +5,14 @@ Powered by Super.so
 
 */
 
-/* monotype */
-@import url("http://fast.fonts.net/t/1.css?apiType=css&projectid=ec99d480-77f0-46ce-9722-68332b5a34ea");
-    @font-face{
-        font-family:"Applied Sans W01 Light";
-        src:url("Fonts/3e763f43-c1f7-440c-8592-cb253ff58095.woff2") format("woff2"),url("Fonts/01bf77f8-8fcc-4fd3-bca5-1edd2cf98ca9.woff") format("woff");
-    }
-    @font-face{
-        font-family:"Applied Sans W01 Light Italic";
-        src:url("Fonts/a8a47bf9-eb9e-42ed-92f5-081e5812c80d.woff2") format("woff2"),url("Fonts/3989eba5-9585-4397-a012-e2cdaba43f34.woff") format("woff");
-    }
-    @font-face{
-        font-family:"Applied Sans W01 Regular";
-        src:url("Fonts/4063af43-64b6-43d0-a26e-06aa4f85363d.woff2") format("woff2"),url("Fonts/3dcd51dd-b610-42f0-aac7-c434471cd2fb.woff") format("woff");
-    }
-    @font-face{
-        font-family:"Applied Sans W01 Italic";
-        src:url("Fonts/7bfac507-078e-414c-ae8b-34972f44be93.woff2") format("woff2"),url("Fonts/0f16522a-00c2-4518-b0b8-5bfe3992fd38.woff") format("woff");
-    }
-    @font-face{
-        font-family:"Neue Frutiger W31 Trad Light";
-        src:url("Fonts/1c94aecc-ced6-4417-b377-f1c92be81019.woff2") format("woff2"),url("Fonts/82931d26-ee13-4bda-a8b8-aa72f16b3a73.woff") format("woff");
-    }
 
-
-/* etctype gluten */
+/* Karrik Font */
 @font-face {
-  font-family: 'Gluten';
-  src: url('https://cmdu.github.io/macscooking/GlutenVariable.woff') format('woff2');
+  font-family: 'Karrik';
+  src: url('https://cmdu.github.io/macscooking/fonts/Karrik-Regular.woff') format('woff');
+  src: url('https://cmdu.github.io/macscooking/fonts/Karrik-Regular.woff2') format('woff2');
+  src: url('https://cmdu.github.io/macscooking/fonts/Karrik-Italic.woff') format('woff');
+  src: url('https://cmdu.github.io/macscooking/fonts/Karrik-Italic.woff2') format('woff2');
 }
 
 /* Variables */
