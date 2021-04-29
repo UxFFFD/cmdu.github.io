@@ -19,6 +19,15 @@ Powered by Super.so
   src: url('https://cmdu.github.io/macscooking/fonts/Karrik-Italic.woff2') format('woff2');
 }
 
+body {
+    /* Make the text nice and crisp */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  
+    /* Improve kerning for good measure */
+    text-rendering: optimizeLegibility;
+}
+
 
 /* Variables */
 :root {
