@@ -224,8 +224,8 @@ h1, h2, h3,
 
 /* Text + link elements */
 h1, h2, h3, p, a {
-  font-family: 'Karrik', sans-serif !important;
-  font-style: normal !important;
+  font-family: 'Karrik-Regular', sans-serif !important;
+  /* font-style: normal !important; */
 }
 h1 {
   line-height: 1 !important;
