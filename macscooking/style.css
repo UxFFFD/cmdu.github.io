@@ -5,16 +5,8 @@ Powered by Super.so
 
 */
 
-/* Custom font */
+/* monotype */
 @import url("http://fast.fonts.net/t/1.css?apiType=css&projectid=ec99d480-77f0-46ce-9722-68332b5a34ea");
-    @font-face{
-        font-family:"Applied Sans W01 UltraLight";
-        src:url("Fonts/ad41ee97-c0d7-4f57-b3a9-a5f0e5598456.woff2") format("woff2"),url("Fonts/aa50cf2e-8f74-4317-a0aa-43902e3e8180.woff") format("woff");
-    }
-    @font-face{
-        font-family:"Applied Sans W01 UltraLight It";
-        src:url("Fonts/6ab1cf72-2572-47cf-bb2f-ed615246b36a.woff2") format("woff2"),url("Fonts/0b63ec67-66ca-4d09-a506-f5f756860069.woff") format("woff");
-    }
     @font-face{
         font-family:"Applied Sans W01 Light";
         src:url("Fonts/3e763f43-c1f7-440c-8592-cb253ff58095.woff2") format("woff2"),url("Fonts/01bf77f8-8fcc-4fd3-bca5-1edd2cf98ca9.woff") format("woff");
@@ -32,18 +24,16 @@ Powered by Super.so
         src:url("Fonts/7bfac507-078e-414c-ae8b-34972f44be93.woff2") format("woff2"),url("Fonts/0f16522a-00c2-4518-b0b8-5bfe3992fd38.woff") format("woff");
     }
     @font-face{
-        font-family:"Applied Sans W01 Medium";
-        src:url("Fonts/ef5acfbd-ac6c-4686-9e7c-ae99c0aeeb06.woff2") format("woff2"),url("Fonts/d7d3fa00-96bc-4a38-a20a-1566aa9b3f5e.woff") format("woff");
-    }
-    @font-face{
-        font-family:"Applied Sans W01 Medium Italic";
-        src:url("Fonts/ddadaabf-65ef-404c-9056-d43da13faaff.woff2") format("woff2"),url("Fonts/8cce99ab-31b9-401e-9ea9-0af1a9f8102b.woff") format("woff");
-    }
-    @font-face{
         font-family:"Neue Frutiger W31 Trad Light";
         src:url("Fonts/1c94aecc-ced6-4417-b377-f1c92be81019.woff2") format("woff2"),url("Fonts/82931d26-ee13-4bda-a8b8-aa72f16b3a73.woff") format("woff");
     }
 
+
+/* etctype gluten */
+@font-face {
+  font-family: 'Gluten';
+  src: url('https://cmdu.github.io/macscooking/GlutenVariable.woff') format('woff2');
+}
 
 /* Variables */
 :root {
