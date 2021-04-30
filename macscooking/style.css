@@ -1,31 +1,11 @@
-/*
-This CSS resource incorporates links to font software which is the valuable copyrighted
-property of Monotype Imaging and/or its suppliers. You may not attempt to copy, install,
-redistribute, convert, modify or reverse engineer this font software. Please contact Monotype
-Imaging with any questions regarding Web Fonts:  http://www.fonts.com
-*/
 
-@import url("http://fast.fonts.net/t/1.css?apiType=css&projectid=ec99d480-77f0-46ce-9722-68332b5a34ea");
-    @font-face{
-        font-family:"Neue Frutiger W31 Trad Light";
-        src:url("Fonts/1c94aecc-ced6-4417-b377-f1c92be81019.woff2") format("woff2"),url("Fonts/82931d26-ee13-4bda-a8b8-aa72f16b3a73.woff") format("woff");
-    }
-    @font-face{
-        font-family:"Neue Haas Grotesk Disp W01_45L";
-        src:url("Fonts/47e29da7-7a58-44de-8b3c-db20c65f6c3f.woff2") format("woff2"),url("Fonts/b760d559-b712-4db0-a54c-0d0f8c10495b.woff") format("woff");
-    }
-    @font-face{
-        font-family:"Neue Haas Grotesk DispW0146LtIt";
-        src:url("Fonts/7c83a405-2678-4ccf-b21d-985a005c8ce1.woff2") format("woff2"),url("Fonts/e07d1c64-c5a2-4a87-973f-d3298502dcf6.woff") format("woff");
-    }
-    @font-face{
-        font-family:"Neue Haas Grotesk Disp W01_56I";
-        src:url("Fonts/0faba21a-2c21-4d23-8245-0733b0e9f6e6.woff2") format("woff2"),url("Fonts/3f00786e-87b6-46f4-8460-af234e3f5a6e.woff") format("woff");
-    }
-    @font-face{
-        font-family:"Neue Haas Grotesk Disp W01_55R";
-        src:url("Fonts/6e329389-9c44-48b0-8291-f918840fe862.woff2") format("woff2"),url("Fonts/dc6a6646-e0ac-4deb-b3c0-19e5dc30bf6a.woff") format("woff");
-    }
+/* Neue Haas Display */
+@font-face {
+  font-family: 'NeueHaasDisplay-Roman';
+  src: url('https://cmdu.github.io/macscooking/fonts/NeueHaasDisplay-Roman.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
 
 
 body {
@@ -242,7 +222,7 @@ h1, h2, h3,
 
 /* Text + link elements */
 h1, h2, h3, p, a {
-  font-family: "Neue Haas Grotesk Disp W01_55R", sans-serif !important;
+  font-family: 'NeueHaasDisplay-Roman', sans-serif !important;
   font-style: normal !important;
 }
 h1 {
