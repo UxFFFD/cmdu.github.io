@@ -1,12 +1,9 @@
 /*
-
-Context Site Template
-Powered by Super.so
-
+This CSS resource incorporates links to font software which is the valuable copyrighted
+property of Monotype Imaging and/or its suppliers. You may not attempt to copy, install,
+redistribute, convert, modify or reverse engineer this font software. Please contact Monotype
+Imaging with any questions regarding Web Fonts:  http://www.fonts.com
 */
-
-
-/* Karrik Font */
 
 @import url("http://fast.fonts.net/t/1.css?apiType=css&projectid=ec99d480-77f0-46ce-9722-68332b5a34ea");
     @font-face{
@@ -245,8 +242,8 @@ h1, h2, h3,
 
 /* Text + link elements */
 h1, h2, h3, p, a {
-  font-family: 'Neue Haas Grotesk Disp W01_55R', sans-serif !important;
-  /* font-style: normal !important; */
+  font-family: "Neue Haas Grotesk Disp W01_55R", sans-serif !important;
+  font-style: normal !important;
 }
 h1 {
   line-height: 1 !important;
