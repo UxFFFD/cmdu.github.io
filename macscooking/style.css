@@ -195,6 +195,7 @@ h1, h2, h3,
 h1, h2, h3, p, a {
   font-family: 'MacsIntl55', sans-serif !important;
   font-style: normal !important;
+  letter-spacing: 0px !important;
 }
 h1 {
   line-height: 1 !important;
