@@ -1,9 +1,8 @@
 
 /* Neue Haas Display */
 @font-face {
-  font-family: 'NeueHaasGroteskDisplayPro-55Roman';
-  src: url('https://cmdu.github.io/macscooking/fonts/NeueHaasGroteskDisplayPro-55Roman.woff') format('woff');
-  src: url('https://cmdu.github.io/macscooking/fonts/NeueHaasGroteskDisplayPro-55Roman.woff2') format('woff2');
+  font-family: 'MacsIntl55';
+  src: url('https://cmdu.github.io/macscooking/fonts/MacsIntl55.woff') format('woff');
   font-style: normal;
 }
 
@@ -194,7 +193,7 @@ h1, h2, h3,
 
 /* Text + link elements */
 h1, h2, h3, p, a {
-  font-family: 'NeueHaasGroteskDisplayPro-55Roman', sans-serif !important;
+  font-family: 'MacsIntl55', sans-serif !important;
   font-style: normal !important;
 }
 h1 {
