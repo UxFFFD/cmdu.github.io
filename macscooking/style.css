@@ -194,8 +194,8 @@ h1, h2, h3,
 /* Text + link elements */
 h1, h2, h3, p, a {
   font-family: 'MacsIntl55', sans-serif !important;
-  font-style: normal !important;
-  letter-spacing: 0px !important;
+  font-weight: 400;
+  letter-spacing: -1px !important;
 }
 h1 {
   line-height: 1 !important;
