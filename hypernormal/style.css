@@ -283,6 +283,7 @@ h3.notion-heading {
   margin-bottom: 44px !important;
   filter: drop-shadow(0px 25px 50px rgba(0, 0, 0, 0.19)) !important;
   overflow: visible !important;
+  background: transparent !important;
 }
 
 @media screen and (min-width: 370px) {
