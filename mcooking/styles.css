@@ -182,7 +182,7 @@ h1.notion-header__title {
 
 .notion-property__title .notion-semantic-string {
   font-size: calc(16px + (20 - 16) * ((100vw - 400px) / (1600 - 400))) !important;
-  font-weight: bold !important;
+  /* font-weight: bold !important; */
 }
 
 .notion-header__content h1 {
