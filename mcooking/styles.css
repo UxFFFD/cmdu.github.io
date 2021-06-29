@@ -206,7 +206,6 @@ h1.notion-header__title {
 .notion-column[style*="0.375"]>.notion-heading:first-of-type,
 .notion-column[style*="0.5"]>.notion-heading:first-of-type {
   margin-top: calc(0px + (10 - 0) * ((100vw - 300px) / (1600 - 300))) !important;
-   !important;
 }
 
 
