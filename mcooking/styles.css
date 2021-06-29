@@ -1,9 +1,16 @@
 /*
 
-Persona — Portfolio Template 
+Based on Persona 
 by @abielzulio for Super
 
-More templates: ultr.site
+Fluid Design based on the ideas of
+Mike Riethmuller https://github.com/madebymike
+
+Fluid type, howto:
+
+body {
+  font-size: calc([minimum size] + ([maximum size] - [minimum size]) * ((100vw - [minimum viewport width]) / ([maximum viewport width] - [minimum viewport width])));
+}
 
 /*
 
@@ -13,7 +20,6 @@ More templates: ultr.site
 /****  ROOT  ****/
 
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,300;0,500;1,300;1,500&display=swap');
-@import url("https://use.typekit.net/pbx8wph.css");
 
 html,
 body {
@@ -22,6 +28,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
   font-family: 'IBM Plex Mono', monospace !important;
+  font-weight: 300;
 }
 
 body {
