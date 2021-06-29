@@ -28,7 +28,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
   font-family: 'IBM Plex Mono', monospace !important;
-  font-weight: 300;
+  font-weight: 300 !important;
 }
 
 body {
