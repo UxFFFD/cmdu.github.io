@@ -27,7 +27,7 @@ body {
   --color-text-default: black !important;
   --color-bg-default: white !important;
   --grid-color: var(--color-text-default);
-  --grid: 2px solid var(--grid-color);
+  --grid: 1px solid var(--grid-color);
   --grid-color-2nd: 2px solid var(--color-bg-default);
   --column-spacing: 0px !important;
   --col-left: calc(50px + (150 - 50) * ((100vw - 300px) / (1600 - 300)));
