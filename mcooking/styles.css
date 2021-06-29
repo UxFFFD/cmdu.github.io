@@ -409,7 +409,7 @@ h1.notion-header__title {
 
 .notion-callout.border .notion-callout__content {
   color: var(--color-bg-default) !important;
-  font-weight: bold;
+  /* font-weight: bold; */
 }
 
 .notion-callout.border .notion-callout__icon {
