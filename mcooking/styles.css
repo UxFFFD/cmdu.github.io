@@ -241,7 +241,7 @@ h1.notion-header__title {
 }
 
 .notion-navbar__title {
-  font-size: 0.85rem !important;
+  font-size: 1rem !important;
 }
 
 .notion-breadcrumb__divider {
@@ -646,6 +646,9 @@ h3.notion-collection__header {
 
 a.notion-link {
   opacity: 1 !important;
+  font-size: 0.9em;
+  letter-spacing: 0.025em;
+  font-weight: 500;
 }
 
 .notion-navbar__title,
@@ -831,9 +834,9 @@ a.notion-link {
   }
 
   .notion-quote:first-of-type a.notion-link:hover {
-    background-color: var(--color-text-default) !important;
+    background-color: lightblue !important;
     border-bottom: none !important;
-    color: var(--color-bg-default) !important;
+    color: var(--color-text-default) !important;
   }
 
   .notion-quote:first-of-type a.notion-link:hover::before {
