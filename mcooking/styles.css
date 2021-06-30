@@ -183,7 +183,8 @@ h1.notion-header__title {
 }
 
 .notion-property__title .notion-semantic-string {
-  font-size: calc(16px + (20 - 16) * ((100vw - 400px) / (1600 - 400))) !important;
+  font-size: 1rem !important;
+  /* font-size: calc(16px + (20 - 16) * ((100vw - 400px) / (1600 - 400))) !important; */
   /* font-weight: bold !important; */
 }
 
@@ -193,7 +194,7 @@ h1.notion-header__title {
 
 .notion-text__content {
   font-family: 'IBM Plex Sans', sans-serif;
-  font-size: 1.5em !important;
+  font-size: 1.5rem !important;
 }
 
 .notion-text__content {
