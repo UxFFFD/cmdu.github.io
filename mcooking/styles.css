@@ -39,7 +39,7 @@ body {
 
 /* Variables */
 :root {
-  --color-text-default: black !important;
+  --color-text-default: #303030 !important;
   --color-bg-default: white !important;
   --grid-color: var(--color-text-default);
   --grid: 2px solid lightblue;
@@ -127,7 +127,7 @@ body {
 /* Selection */
 ::selection,
 ::-moz-selection {
-  background: var(--color-text-default) !important;
+  background: lightblue !important;
   color: var(--color-bg-default) !important;
 }
 
