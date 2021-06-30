@@ -221,6 +221,7 @@ h1.notion-header__title {
   padding: 0 !important;
   padding-bottom: 0px !important;
   border-top: var(--grid) !important;
+  font-size: .85rem !important;
 }
 
 .notion-navbar>a {
@@ -235,8 +236,8 @@ h1.notion-header__title {
 
 .notion-navbar>a:hover {
   border-radius: 0px !important;
-  background-color: var(--color-text-default) !important;
-  color: var(--color-bg-default) !important;
+  background-color: lightblue !important;
+  color: var(--color-text-default) !important;
 }
 
 .notion-navbar__title {
