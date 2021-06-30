@@ -192,7 +192,8 @@ h1.notion-header__title {
 }
 
 .notion-text__content {
-  font-size: 1.05em !important;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 1em !important;
 }
 
 .notion-text__content {
