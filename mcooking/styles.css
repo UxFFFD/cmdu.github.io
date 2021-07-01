@@ -183,9 +183,8 @@ h1.notion-header__title {
 }
 
 .notion-property__title .notion-semantic-string {
-  font-size: 0.9em !important;
-  /* font-size: calc(16px + (20 - 16) * ((100vw - 400px) / (1600 - 400))) !important; */
-  /* font-weight: bold !important; */
+  font-size: calc(14px + (16 - 14) * ((100vw - 400px) / (1600 - 400))) !important;
+  font-weight: 500 !important;
 }
 
 .notion-header__content h1 {
@@ -642,9 +641,9 @@ h3.notion-collection__header {
 
 a.notion-link {
   opacity: 1 !important;
-  font-size: 0.9em;
-  letter-spacing: 0.015em;
-  font-weight: 500;
+  font-size: calc(14px + (16 - 14) * ((100vw - 400px) / (1600 - 400))) !important;
+  font-weight: 500 !important;
+  letter-spacing: calc(0.2px + (0.2 - 0.1) * ((100vw - 400px) / (1600 - 400))) !important;
 }
 
 .notion-navbar__title,
