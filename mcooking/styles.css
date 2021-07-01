@@ -522,21 +522,20 @@ h3.notion-collection__header {
   background: var(--color-bg-default) !important
 }
 
-/* .notion-collection-card:hover {
-  background: var(--color-text-default) !important;
-  box-shadow: var(--shadow) !important;
-} */
+.notion-collection-card:hover {
+  background: lightblue !important;
+}
 
 .notion-collection-card .notion-property__title .notion-semantic-string span {
   transition: var(--global-transition) !important;
 }
 
 .notion-collection-card:hover .notion-property__title .notion-semantic-string span {
-  color: var(--color-bg-default) !important;
+  color: var(--color-text-default) !important;
 }
 
 .notion-collection-card .notion-property__title {
-  padding: 15px 12px 0px 15px !important;
+  padding: 15px !important;
 }
 
 .notion-collection-gallery .notion-property__title {
