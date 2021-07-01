@@ -448,7 +448,7 @@ h1.notion-header__title {
 }
 
 .super-content>article>.notion-image.page-width {
-  border-top: var(--grid) !important;
+  /* border-top: var(--grid) !important; */
   border-bottom: var(--grid) !important;
 }
 
