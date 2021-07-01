@@ -312,7 +312,7 @@ h1.notion-header__title {
 .notion-column[style*="0.125"] h2 {
   margin:
     calc(18px + (70 - 18) * ((100vw - 200px) / (1600 - 200))) calc(5px + (40 - 5) * ((100vw - 200px) / (1600 - 200))) 0px 0px !important;
-  writing-mode: vertical-rl;
+  writing-mode: vertical-lr;
   font-size: calc(14px + (16 - 14) * ((100vw - 400px) / (1600 - 400))) !important;
   font-weight: 500 !important;
   position: sticky !important;
