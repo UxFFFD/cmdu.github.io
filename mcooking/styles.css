@@ -314,7 +314,7 @@ h1.notion-header__title {
   writing-mode: vertical-lr;
   font-size: calc(14px + (16 - 14) * ((100vw - 400px) / (1600 - 400))) !important;
   font-weight: 500 !important;
-  letter-spacing: calc(0.4px + (0.4 - 0.2) * ((100vw - 400px) / (1600 - 400))) !important;
+  letter-spacing: 0.4px !important;
   position: sticky !important;
   position: -webkit-sticky !important;
   top: calc(120px + (140 - 120) * ((100vw - 200px) / (1600 - 200)));
