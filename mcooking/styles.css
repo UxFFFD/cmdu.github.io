@@ -491,13 +491,10 @@ h3.notion-collection__header {
   gap: calc(var(--col-right-pad)) !important;
 }
 
-.notion-collection-gallery:hover>.notion-collection-card {
-  filter: saturate(0);
-}
-
+/* 
 .notion-collection-gallery:hover>.notion-collection-card:hover {
   filter: unset;
-}
+} */
 
 .notion-collection-card__cover {
   border: none !important;
@@ -525,10 +522,10 @@ h3.notion-collection__header {
   background: var(--color-bg-default) !important
 }
 
-.notion-collection-card:hover {
+/* .notion-collection-card:hover {
   background: var(--color-text-default) !important;
   box-shadow: var(--shadow) !important;
-}
+} */
 
 .notion-collection-card .notion-property__title .notion-semantic-string span {
   transition: var(--global-transition) !important;
