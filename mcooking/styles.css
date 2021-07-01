@@ -313,14 +313,12 @@ h1.notion-header__title {
   margin:
     calc(18px + (70 - 18) * ((100vw - 200px) / (1600 - 200))) calc(5px + (40 - 5) * ((100vw - 200px) / (1600 - 200))) 0px 0px !important;
   writing-mode: vertical-rl;
-  font-size: calc(25px + (48.83 - 25) * ((100vw - 300px) / (1600 - 300))) !important;
+  font-size: calc(14px + (16 - 14) * ((100vw - 400px) / (1600 - 400))) !important;
+  font-weight: 500 !important;
   position: sticky !important;
   position: -webkit-sticky !important;
   top: calc(120px + (140 - 120) * ((100vw - 200px) / (1600 - 200)));
   padding-bottom: var(--col-right-pad) !important;
-  -webkit-animation: fadeInLeft 1s !important;
-  -moz-animation: fadeInLeft 1s !important;
-  animation: fadeInLeft 1s !important;
 }
 
 #__next .notion-column[style*="0.875"] {
