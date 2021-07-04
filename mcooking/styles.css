@@ -132,6 +132,7 @@ h1.notion-header__title {
   padding-bottom: 0px !important;
   border-top: var(--grid) !important;
   font-size: .85rem !important;
+  box-shadow: none !important;
 }
 
 .notion-navbar>a {
