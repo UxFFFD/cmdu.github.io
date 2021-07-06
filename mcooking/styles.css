@@ -233,7 +233,7 @@ h1.notion-header__title {
   top: calc(120px + (140 - 120) * ((100vw - 200px) / (1600 - 200)));
   padding-bottom: var(--col-right-pad) !important;
   color: var(--color-default-2nd);
-  font-family: ibm-plex-thai, sans-serif !important;
+  font-family: 'IBM Plex Mono', monospace !important;
   font-weight: 300 !important;
 }
 
