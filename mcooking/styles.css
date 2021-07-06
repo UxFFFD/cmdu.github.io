@@ -286,7 +286,6 @@ h1.notion-header__title {
 
 .notion-callout.border:hover {
   background: var(--color-text-default) !important;
-  box-shadow: var(--shadow) !important;
 }
 
 .notion-callout.border .notion-callout__content {
@@ -561,7 +560,6 @@ a.notion-link {
 }
 
 .notion-bookmark:hover {
-  box-shadow: var(--shadow) !important;
   background: transparent !important;
 }
 
