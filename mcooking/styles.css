@@ -44,12 +44,10 @@ body {
   --color-bg-default: white !important;
   --grid-color: var(--color-text-default);
   --grid: 2px solid var(--color-default);
-  --grid-color-2nd: 2px solid var(--color-bg-default);
   --column-spacing: 0px !important;
   --col-left: calc(50px + (150 - 50) * ((100vw - 300px) / (1600 - 300)));
   --col-right-pad: calc(var(--col-left)/2);
-  --global-transition: all 0s ease-out !important;
-  --shadow: rgba(0, 0, 0, .3) 0 9px 20px;
+  /* --grid-color-2nd: 2px solid var(--color-bg-default); */
 }
 
 
@@ -106,7 +104,7 @@ h1.notion-header__title {
 
 .notion-text__content {
   font-family: 'IBM Plex Sans', sans-serif;
-  font-size: 1.5rem !important;
+  font-size: 1em !important;
 }
 
 .notion-text__content {
@@ -144,11 +142,10 @@ h1.notion-header__title {
   justify-content: center;
   border-right: var(--grid);
   height: 64px !important;
-  transition: var(--global-transition) !important;
 }
 
 .notion-navbar>a:hover {
-  border-radius: 0px !important;
+  border-radius: 1px !important;
   background-color: var(--color-default-2nd) !important;
   color: var(--color-text-default) !important;
 }
@@ -226,7 +223,7 @@ h1.notion-header__title {
 .notion-column[style*="0.125"] h2 {
   margin:
     calc(18px + (70 - 18) * ((100vw - 200px) / (1600 - 200))) calc(5px + (40 - 5) * ((100vw - 200px) / (1600 - 200))) 0px 0px !important;
-  writing-mode: vertical-rl;
+  writing-mode: vertical-rl !important;
   font-size: calc(25px + (48.83 - 25) * ((100vw - 300px) / (1600 - 300))) !important;
   position: sticky !important;
   position: -webkit-sticky !important;
@@ -427,17 +424,12 @@ h3.notion-collection__header {
 }
 
 .notion-collection-card {
-  transition: var(--global-transition) !important;
   border: var(--grid) !important;
   background: var(--color-bg-default) !important
 }
 
 .notion-collection-card:hover {
-  background: var(--color-default) !important;
-}
-
-.notion-collection-card .notion-property__title .notion-semantic-string span {
-  transition: var(--global-transition) !important;
+  background: var(--color-default-2nd) !important;
 }
 
 .notion-collection-card:hover .notion-property__title .notion-semantic-string span {
@@ -508,12 +500,11 @@ h3.notion-collection__header {
 }
 
 .notion-collection-list__item:hover {
-  background-color: var(--color-text-default) !important;
-  box-shadow: var(--shadow);
+  background-color: var(--color-default-2nd) !important;
 }
 
 .notion-collection-list__item:hover .notion-property__title .notion-semantic-string span {
-  color: var(--color-bg-default) !important;
+  color: var(--color-text-default) !important;
 }
 
 /* .notion-collection-list .notion-property__title {
@@ -540,7 +531,7 @@ h3.notion-collection__header {
 .notion-collection-list__item:hover .notion-semantic-string .date,
 .notion-collection-card:hover .notion-semantic-string .date,
 .notion-collection-card:hover .notion-property__text {
-  color: var(--color-bg-default) !important;
+  color: var(--color-text-default) !important;
   opacity: 1;
 }
 
