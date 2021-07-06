@@ -484,6 +484,7 @@ h3.notion-collection__header {
 }
 
 .notion-semantic-string .date {
+  font-weight: 500 !important;
   color: var(--color-text-default) !important;
   opacity: 0.5;
 }
