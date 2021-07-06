@@ -419,6 +419,7 @@ h3.notion-collection__header {
 
 .notion-collection-list {
   padding: 0 !important;
+  border-top: none !important;
 }
 
 .notion-collection-card__content {
