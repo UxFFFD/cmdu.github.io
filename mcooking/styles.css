@@ -38,7 +38,7 @@ body {
 
 /* Variables */
 :root {
-  --color-default: #0072B5 !important;
+  --color-default: lightblue !important;
   --color-text-default: #303030 !important;
   --color-bg-default: white !important;
   --grid-color: var(--color-text-default);
