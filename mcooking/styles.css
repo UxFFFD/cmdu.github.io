@@ -149,7 +149,7 @@ h1.notion-header__title {
 
 .notion-navbar>a:hover {
   border-radius: 0px !important;
-  background-color: var(--color-default) !important;
+  background-color: var(--color-default-2nd) !important;
   color: var(--color-text-default) !important;
 }
 
@@ -239,9 +239,6 @@ h1.notion-header__title {
 
 #__next .notion-column[style*="0.875"] {
   padding: var(--col-right-pad) !important;
-  -webkit-animation: fadeInUp 1s !important;
-  -moz-animation: fadeInUp 1s !important;
-  animation: fadeInUp 1s !important;
 }
 
 .notion-column-list+.notion-divider {
