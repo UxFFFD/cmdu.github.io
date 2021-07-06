@@ -30,6 +30,7 @@ body {
   text-rendering: optimizeLegibility;
   font-family: 'IBM Plex Mono', monospace !important;
   font-weight: 300 !important;
+  font-size: 14px !important;
 }
 
 body {
@@ -480,9 +481,9 @@ h3.notion-collection__header {
 }
 
 .notion-collection-card:hover .notion-pill {
-  color: var(--color-bg-default) !important;
-  background: var(--color-text-default) !important;
-  border: var(--grid-color-2nd) !important;
+  color: var(--color-text-default) !important;
+  background: var(--color-default-2nd) !important;
+  border: var(--grid-color) !important;
 }
 
 .notion-collection-list__item {
@@ -492,7 +493,6 @@ h3.notion-collection__header {
   border-radius: 0px !important;
   margin: 0 !important;
   padding: 0 !important;
-  transition: var(--global-transition);
 }
 
 .notion-collection-list__item:last-child {
@@ -545,7 +545,7 @@ a.notion-link {
   opacity: 1 !important;
   font-size: calc(14px + (16 - 14) * ((100vw - 400px) / (1600 - 400))) !important;
   font-weight: 500 !important;
-  letter-spacing: calc(0.4px + (0.4 - 0.2) * ((100vw - 400px) / (1600 - 400))) !important;
+  letter-spacing: 0.025em !important;
 }
 
 .notion-navbar__title,
@@ -554,7 +554,6 @@ a.notion-link {
   position: relative;
   display: inline-block;
   border-bottom: none !important;
-  transition: var(--global-transition) !important;
 }
 
 .notion-navbar__title {
@@ -599,7 +598,6 @@ a.notion-link {
 .notion-bookmark {
   border: var(--grid) !important;
   border-radius: 0px !important;
-  transition: var(--global-transition) !important;
 }
 
 .notion-bookmark:hover {
