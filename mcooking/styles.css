@@ -62,32 +62,6 @@ body {
 
 
 
-/****  ADAPTIVE DARK MODE  ****/
-/*
-@media (prefers-color-scheme: dark) {
-  :root {
-      --color-text-default: white !important;
-      --color-bg-default: black !important; 
-      --grid-color: var(--color-text-default);
-      --grid: 2px solid var(--grid-color);
-      --grid-color-2nd: 2px solid var(--color-bg-default);
-      --shadow: rgba(225,225,225,.5) 0 9px 20px;
-  }
-  ::selection,
-  ::-moz-selection {
-      background: var(--color-text-default) !important;
-      color: var(--color-bg-default) !important;
-  }
-  ::-webkit-scrollbar-thumb {
-    background: var(--color-text-default);
-  }
-  ::-webkit-scrollbar-thumb:hover {
-    background: grey; 
-  }
-} */
-
-
-
 /****  TYPOGRAPHY  ****/
 h1.notion-heading,
 h1.notion-header__title {
@@ -223,7 +197,7 @@ h1.notion-header__title {
 
 .notion-column[style*="0.125"] h2 {
   margin:
-    calc(18px + (70 - 18) * ((100vw - 200px) / (1600 - 200))) calc(5px + (40 - 5) * ((100vw - 200px) / (1600 - 200))) 0px 0px !important;
+  calc(18px + (70 - 18) * ((100vw - 200px) / (1600 - 200))) calc(5px + (40 - 5) * ((100vw - 200px) / (1600 - 200))) 0px 0px !important;
   writing-mode: vertical-rl !important;
   font-size: calc(25px + (48.83 - 25) * ((100vw - 300px) / (1600 - 300))) !important;
   position: sticky !important;
@@ -266,11 +240,6 @@ h1.notion-header__title {
   border-bottom: var(--grid) !important;
   border-right: var(--grid) !important;
 }
-
-/* .notion-header__content.no-cover.no-icon,
-.notion-header__content.no-cover.has-icon {
-  display: none !important;
-} */
 
 :is(#page-works, #page-thoughts, #page-about):is(.notion-header.page) {
   display: none !important;
@@ -321,7 +290,6 @@ h1.notion-header__title {
 
 .notion-callout.border .notion-callout__content {
   color: var(--color-bg-default) !important;
-  /* font-weight: bold; */
 }
 
 .notion-callout.border .notion-callout__icon {
@@ -398,11 +366,6 @@ h3.notion-collection__header {
   padding: 0 !important;
   gap: calc(var(--col-right-pad)) !important;
 }
-
-/* 
-.notion-collection-gallery:hover>.notion-collection-card:hover {
-  filter: unset;
-} */
 
 .notion-collection-card__cover {
   border: none !important;
@@ -506,10 +469,6 @@ h3.notion-collection__header {
 .notion-collection-list__item:hover .notion-property__title .notion-semantic-string span {
   color: var(--color-text-default) !important;
 }
-
-/* .notion-collection-list .notion-property__title {
-  width: 70%;
-} */
 
 .notion-collection-list .notion-property__title {
   padding: 9.5px 0px 10px 9.5px !important;
@@ -642,48 +601,48 @@ a.notion-link {
     margin: 0 !important;
     padding: 0 !important;
   }
-
+  
   .notion-navbar>a:hover {
     background-color: transparent !important;
     color: var(--color-text-default) !important;
   }
-
+  
   .notion-quote:first-of-type a.notion-link {
     padding: 0px !important;
     margin: 16px 16px 0px 0px !important;
     border-left: unset !important;
   }
-
+  
   .notion-quote:first-of-type .notion-semantic-string {
     line-height: 1.5 !important;
   }
-
+  
   .notion-header__cover {
     max-height: 30vh !important;
     height: 30vh !important;
   }
-
+  
   .super-content.max-width {
     padding-bottom: calc(var(--col-right-pad)*2) !important;
   }
-
+  
   .super-content.max-width>article>* {
     margin-left: calc(var(--col-left)) !important;
     margin-right: calc(var(--col-left)) !important;
   }
-
+  
   .super-content.max-width article blockquote:first-of-type {
     margin: unset !important;
   }
-
+  
   .super-content.max-width .notion-page__properties .notion-pill {
     margin-bottom: calc(var(--col-left)/3) !important;
   }
-
+  
   #__next .notion-column[style*="0.875"] {
     margin: 0 auto !important;
   }
-
+  
   .notion-header__content {
     padding: calc(var(--col-left)/2) 0px calc(var(--col-left)/9) 0px !important;
   }
@@ -693,69 +652,69 @@ a.notion-link {
   .notion-heading {
     padding: 0 !important;
   }
-
+  
   .notion-navbar {
     border-top: var(--grid) !important;
   }
-
+  
   #__next .notion-column[style*="0.875"] {
     margin: 0 !important;
   }
-
+  
   .super-content.max-width {
     padding-top: calc(var(--col-left)/16) !important;
     padding-bottom: var(--col-right-pad) !important;
   }
-
+  
   .super-content.max-width>article>* {
     margin-left: calc(var(--col-left) * 2) !important;
     margin-right: calc(var(--col-left) * 2) !important;
   }
-
+  
   .super-content.max-width article blockquote:first-of-type {
     margin: unset !important;
   }
-
+  
   .super-content.max-width .notion-page__properties .notion-pill {
     margin-bottom: calc(var(--col-left)/4) !important;
   }
-
+  
   .notion-navbar__title:before {
     opacity: 0;
   }
-
+  
   .notion-quote:first-of-type a.notion-link {
     padding: 0px 24px !important;
     border-left: var(--grid) !important;
   }
-
+  
   .notion-quote:first-of-type a.notion-link:hover {
-    background-color: var(--color-default) !important;
+    background-color: var(--color-default-2nd) !important;
     border-bottom: none !important;
     color: var(--color-text-default) !important;
   }
-
+  
   .notion-quote:first-of-type a.notion-link:hover::before {
     display: none;
   }
-
+  
   .notion-quote:first-of-type .notion-semantic-string {
     line-height: 62px !important;
   }
-
+  
   .notion-navbar__title {
     transition: none !important;
   }
-
+  
   .notion-header__cover {
     max-height: 35vh !important;
     height: 35vh !important;
   }
-
+  
   .notion-header__content {
     padding-top: calc(var(--col-left)/3) !important;
   }
-
+  
   .notion-header__content h1.notion-header__title {
     position: sticky;
     top: 45vh;
@@ -764,7 +723,7 @@ a.notion-link {
 }
 
 @media only screen and (max-width:950px) {
-
+  
   .notion-column[style*="0.375"],
   .notion-column[style*="0.625"] {
     width: 100% !important;
@@ -780,7 +739,7 @@ a.notion-link {
 @media only screen and (min-width:480px) {
   #__next #page-index .notion-collection {
     width: 100% !important;
-  }
+      }
 
   #__next .notion-column[style*="0.875"] {
     width: calc(100% - var(--col-left)) !important;
