@@ -45,12 +45,12 @@ body {
 
 /* Variables */
 :root {
-  --color-default: #B2DFEE !important;
-  --color-default-2nd: #4af2a1 !important;
-  --color-text-default: #303030 !important;
-  --color-bg-default: #fff !important;
+  --color-default: #33272a !important;
+  --color-default-2nd: #c3f0ca !important;
+  --color-text-default: #33272a !important;
+  --color-bg-default: #faeee7 !important;
   --grid-color: var(--color-text-default);
-  --grid: 2px solid var(--color-default);
+  --grid: 1px solid var(--color-default);
   --column-spacing: 0px !important;
   --col-left: calc(50px + (150 - 50) * ((100vw - 300px) / (1600 - 300)));
   --col-right-pad: calc(var(--col-left)/2);
