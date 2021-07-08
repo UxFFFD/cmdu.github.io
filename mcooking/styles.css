@@ -124,6 +124,9 @@ h1.notion-header__title {
   justify-content: center;
   border-right: var(--grid);
   height: 64px !important;
+  border-top: var(--grid);
+  border-right: var(--grid);
+  border-bottom: var(--grid);
 }
 
 .notion-navbar>a:hover {
@@ -698,7 +701,7 @@ a.notion-link {
   }
   
   .notion-quote:first-of-type a.notion-link:hover {
-    background-color: var(--color-default) !important;
+    background-color: var(--color-default-2nd) !important;
     border-bottom: none !important;
     color: var(--color-text-default) !important;
   }
