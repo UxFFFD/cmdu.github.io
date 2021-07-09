@@ -582,7 +582,7 @@ a.notion-link {
 
 
 /****  RESPONSIVE  ****/
-@media only screen and (max-width:1280px) {
+@media only screen and (max-width:1020px) {
   .notion-navbar>a {
     border-right: none;
     width: unset !important;
@@ -640,7 +640,7 @@ a.notion-link {
   }
 }
 
-@media only screen and (min-width:1280px) {
+@media only screen and (min-width:1020px) {
   .notion-heading {
     padding: 0 !important;
   }
@@ -746,12 +746,7 @@ a.notion-link {
   #__next .notion-column[style*="0.875"] {
     width: calc(100% - var(--col-left)) !important;
   }
-  .notion-navbar>a {
-    border-bottom: none !important;
-  }
-}
 
-@media only screen and (max-width:480px) {
   .notion-navbar {
     height: 105px !important;
   }
