@@ -373,8 +373,8 @@ h3.notion-collection__header {
 .notion-collection-card__cover.medium,
 .notion-collection-card__cover.medium>div,
 .notion-collection-card__cover.medium img {
-  height: 400px !important;
-  max-height: 400px !important;
+  height: 300px !important;
+  max-height: 300px !important;
 }
 
 .notion-collection-card {
