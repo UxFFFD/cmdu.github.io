@@ -600,7 +600,7 @@ a.notion-link {
   
   .notion-quote:first-of-type a.notion-link {
     padding: 0px !important;
-    margin: 16px 16px 0px 0px !important;
+    margin: 20px 20px 0px 0px !important;
     border-left: unset !important;
   }
   
@@ -745,9 +745,12 @@ a.notion-link {
   #__next .notion-column[style*="0.875"] {
     width: calc(100% - var(--col-left)) !important;
   }
+  .notion-navbar>a {
+    border-bottom: none !important;
+  }
 }
 
-@media only screen and (max-width:440px) {
+@media only screen and (max-width:480px) {
   .notion-navbar {
     height: 105px !important;
   }
@@ -760,5 +763,9 @@ a.notion-link {
 
   #__next .notion-collection-card {
     width: 70vw !important;
+  }
+
+  .notion-navbar>a {
+    border-bottom: none !important;
   }
 }
