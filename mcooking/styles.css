@@ -508,9 +508,9 @@ a.notion-link {
   border-bottom: none !important;
 }
 
-.notion-navbar__title {
+/* .notion-navbar__title {
   padding-bottom: 4px;
-}
+} */
 
 .notion-navbar__title:before,
 .notion-semantic-string .link:before,
