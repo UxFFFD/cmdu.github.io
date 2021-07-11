@@ -110,9 +110,10 @@ h1.notion-header__title {
 }
 
 .notion-text__content {
-  font-family: 'IBM Plex Mono', monospace !important;
+  font-family: 'IBM Plex Sans Thai', monospace !important;
   font-weight: 500 !important;
-  font-size: 1rem !important;
+  font-size: 1.2rem !important;
+  letter-spacing: 0.0125rem;
 }
 
 .notion-text__content {
