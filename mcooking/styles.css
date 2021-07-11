@@ -50,6 +50,13 @@ body {
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'IBM Plex Sans Condensed';
+  src: url('https://cmdu.github.io/mcooking/fonts/IBMPlexSansCondensed-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+
 html,
 body {
   scroll-behavior: smooth !important;
