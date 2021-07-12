@@ -76,6 +76,7 @@ body {
 :root {
   --color-default: #33272a !important;
   --color-default-2nd: #c3f0ca !important;
+  --color-default-3rd: #ffc6c7 !important;
   --color-text-default: #33272a !important;
   --color-bg-default: #faeee7 !important;
   --grid-color: var(--color-text-default);
@@ -795,4 +796,15 @@ a.notion-link {
     border-bottom: none !important;
     border-top: none !important;
   }
+}
+
+
+
+/****  Placeholder Header Cover  ****/
+.notion-header__cover-image {
+  display: none !important;
+}
+
+.notion-header__cover {
+  background-color: var(--color-default-3rd) !important;
 }
