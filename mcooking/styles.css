@@ -808,3 +808,11 @@ a.notion-link {
 .notion-header__cover {
   background-color: var(--color-default-3rd) !important;
 }
+
+.notion-collection-card__cover>div>img {
+  display: none !important;
+}
+
+.notion-collection-card__cover>div {
+  background-color: var(--color-default-3rd) !important;
+}
