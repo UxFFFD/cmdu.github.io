@@ -65,6 +65,7 @@ body {
 
   /* Improve kerning for good measure */
   text-rendering: optimizeLegibility;
+  hyphens: auto !important;
 }
 
 strong {
