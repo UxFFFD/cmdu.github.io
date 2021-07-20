@@ -68,28 +68,28 @@ body {
   
   /* Hyphenation */
   
-  -webkit-hyphens: auto;
-  -webkit-hyphenate-limit-before: 3;
-  -webkit-hyphenate-limit-after: 3;
-  -webkit-hyphenate-limit-chars: 6 3 3;
-  -webkit-hyphenate-limit-lines: 2;
-  -webkit-hyphenate-limit-last: always;
-  -webkit-hyphenate-limit-zone: 8%;
-  -moz-hyphens: auto;
-  -moz-hyphenate-limit-chars: 6 3 3;
-  -moz-hyphenate-limit-lines: 2;
-  -moz-hyphenate-limit-last: always;
-  -moz-hyphenate-limit-zone: 8%;
-  -ms-hyphens: auto;
-  -ms-hyphenate-limit-chars: 6 3 3;
-  -ms-hyphenate-limit-lines: 2;
-  -ms-hyphenate-limit-last: always;
-  -ms-hyphenate-limit-zone: 8%;
-  hyphens: auto;
-  hyphenate-limit-chars: 6 3 3;
-  hyphenate-limit-lines: 2;
-  hyphenate-limit-last: always;
-  hyphenate-limit-zone: 8%;
+  -webkit-hyphens: auto !important;
+  -webkit-hyphenate-limit-before: 3 !important;
+  -webkit-hyphenate-limit-after: 3 !important;
+  -webkit-hyphenate-limit-chars: 6 3 3 !important;
+  -webkit-hyphenate-limit-lines: 2 !important;
+  -webkit-hyphenate-limit-last: always !important;
+  -webkit-hyphenate-limit-zone: 8% !important;
+  -moz-hyphens: auto !important;
+  -moz-hyphenate-limit-chars: 6 3 3 !important;
+  -moz-hyphenate-limit-lines: 2 !important;
+  -moz-hyphenate-limit-last: always !important;
+  -moz-hyphenate-limit-zone: 8% !important;
+  -ms-hyphens: auto !important;
+  -ms-hyphenate-limit-chars: 6 3 3 !important;
+  -ms-hyphenate-limit-lines: 2 !important;
+  -ms-hyphenate-limit-last: always !important;
+  -ms-hyphenate-limit-zone: 8% !important;
+  hyphens: auto !important;
+  hyphenate-limit-chars: 6 3 3 !important;
+  hyphenate-limit-lines: 2 !important;
+  hyphenate-limit-last: always !important;
+  hyphenate-limit-zone: 8% !important;
 }
 
 strong {
