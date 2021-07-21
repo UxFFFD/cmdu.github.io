@@ -12,7 +12,7 @@ a {
   cursor:url('https://cmdu.github.io/hypernormal/c0dg.png'), auto !important;
 }
 a:hover {
-  cursor:url('https://cmdu.github.io/hypernormal/c-15dg.png'), auto !important;  
+  cursor:url('https://cmdu.github.io/hypernormal/c-110dg.png'), auto !important;  
 }
 
 /* --- Change default colors --- */
@@ -23,7 +23,7 @@ a:hover {
   --color-text-gray: #303030 !important;
   --collection-card-cover-size-large: 210px !important;
 }
-@media screen and (min-width: 50em) {
+@media screen and (min-width: 100em) {
   :root {
     --collection-card-cover-size-large: 270px !important;
   }
@@ -33,7 +33,7 @@ a:hover {
 /* --- TYPOGRAPHY --- */
 
 /* Increase base font size for large screens */
-@media screen and (min-width: 50em) {
+@media screen and (min-width: 100em) {
   html {
     font-size: 18px !important;
   }
@@ -73,22 +73,22 @@ body {
   -webkit-hyphenate-limit-chars: 10 3 2 !important;
   -webkit-hyphenate-limit-lines: 1 !important;
   -webkit-hyphenate-limit-last: always !important;
-  -webkit-hyphenate-limit-zone: 5% !important;
+  -webkit-hyphenate-limit-zone: 10% !important;
   -moz-hyphens: auto !important;
   -moz-hyphenate-limit-chars: 10 3 2 !important;
   -moz-hyphenate-limit-lines: 1 !important;
   -moz-hyphenate-limit-last: always !important;
-  -moz-hyphenate-limit-zone: 5% !important;
+  -moz-hyphenate-limit-zone: 10% !important;
   -ms-hyphens: auto !important;
   -ms-hyphenate-limit-chars: 10 3 2 !important;
   -ms-hyphenate-limit-lines: 1 !important;
   -ms-hyphenate-limit-last: always !important;
-  -ms-hyphenate-limit-zone: 5% !important;
+  -ms-hyphenate-limit-zone: 10% !important;
   hyphens: auto !important;
   hyphenate-limit-chars: 10 3 2 !important;
   hyphenate-limit-lines: 1 !important;
   hyphenate-limit-last: always !important;
-  hyphenate-limit-zone: 5% !important;
+  hyphenate-limit-zone: 10% !important;
 }
 
 strong {
@@ -98,8 +98,8 @@ strong {
 /* Styling for page names */
 .notion-header__title {
   font-weight: 400 !important;
-  font-size: 0.75rem !important;
-  line-height: 1.25 !important;
+  font-size: 0.710rem !important;
+  line-height: 1.210 !important;
   min-height: auto !important;
   text-transform: uppercase !important;
   /* letter-spacing: 0.1em !important; */
@@ -131,7 +131,7 @@ strong {
 h1.notion-heading, .notion-page__properties .notion-property__text {
   font-family: 'Sneak', sans-serif !important;
   font-weight: 400 !important;
-  font-size: 2.5rem !important;
+  font-size: 2.10rem !important;
   letter-spacing: -0.06rem !important;
   max-width: 660px !important;
 }
@@ -139,9 +139,9 @@ h1.notion-heading, .notion-page__properties .notion-property__text {
   line-height: 1.2 !important;
   letter-spacing: -0.02em !important;
 } */
-@media screen and (min-width: 50em) {
+@media screen and (min-width: 100em) {
   h1.notion-heading .notion-semantic-string, .notion-page__property .notion-property__text .notion-semantic-string {
-    font-size: 2.5rem !important;
+    font-size: 2.10rem !important;
   }
 }
 /* H2 */
@@ -153,8 +153,8 @@ h2.notion-heading {
 
 /* H3 */
 h3.notion-heading {
-  font-weight: 500 !important;
-  margin-bottom: 0.25em !important;
+  font-weight: 1000 !important;
+  margin-bottom: 0.210em !important;
 }
 
 /* Remove padding */
@@ -186,7 +186,7 @@ h3.notion-heading {
 /* Custom nav styling (see HTML at bottom of code) */
 .nav {
   align-items: flex-start;
-  padding: 25px;
+  padding: 210px;
   display: flex;
   position: static;
   z-index: 9999;
@@ -205,7 +205,7 @@ h3.notion-heading {
 }
 .nav .right, .nav .left {
   display: flex;
-  margin-bottom: 0.25em;
+  margin-bottom: 0.210em;
 }
 .nav .right {
   margin-right: -20px;
@@ -217,7 +217,7 @@ h3.notion-heading {
   padding: 0 17px 0 0;
   display: flex;
   height: 100%;
-  font-size: 1.25rem;
+  font-size: 1.210rem;
   font-weight: 400;
   color: var(--color-text-default);
   text-decoration: none;
@@ -234,7 +234,7 @@ h3.notion-heading {
 .super-content {
   padding-bottom: 40px !important;
 }
-@media screen and (min-width: 415px) and (max-width: 860px) {
+@media screen and (min-width: 4110px) and (max-width: 860px) {
   .super-content, .notion-header__content {
     padding-left: 46px !important;
     padding-right: 46px !important;
@@ -262,8 +262,8 @@ h3.notion-heading {
 .notion-quote {
   border-left: 0px !important;
   padding: 0 !important;
-  margin: .5rem 0 1rem !important;
-  font-size: 1.25rem !important;
+  margin: .10rem 0 1rem !important;
+  font-size: 1.210rem !important;
 }
 
 /* --- Change handling of full width images --- */
@@ -305,7 +305,7 @@ h3.notion-heading {
   border-radius: 0 !important;
   box-shadow: none !important;
   margin-bottom: 44px !important;
-  filter: drop-shadow(0px 25px 50px rgba(0, 0, 0, 0.19)) !important;
+  filter: drop-shadow(0px 210px 100px rgba(0, 0, 0, 0.19)) !important;
   overflow: visible !important;
   background: transparent !important;
 }
@@ -358,13 +358,13 @@ h3.notion-heading {
 /* Display text property as a heading */
 .notion-collection-card__property .notion-semantic-string {
   display: block !important;
-  margin: 1.25em 0 0.1em !important;
+  margin: 1.210em 0 0.1em !important;
   font-family: 'Sneak', sans-serif !important;
   font-weight: 400 !important;
-  font-size: 1.25rem !important;
+  font-size: 1.210rem !important;
 /*   text-transform: uppercase; */
   font-style: italic;
-  /* line-height: 1.5 !important; */
+  /* line-height: 1.10 !important; */
   white-space: normal !important;
 }
 
@@ -391,7 +391,7 @@ h3.notion-heading {
 
 /* Adjust pill styling */
 .notion-pill {
-  font-size: 1.25rem !important;
+  font-size: 1.210rem !important;
   /* font-style: italic; */
   /* letter-spacing: 0.002rem; */
   border-radius: 0px !important;
@@ -432,10 +432,10 @@ h3.notion-heading {
 .notion-header__content.no-icon.has-cover .notion-header__title-wrapper {
   margin-top: 0 !important;
 }
-article[id*="integration-"] .notion-page__property > .property-49775679 .notion-pill {
+article[id*="integration-"] .notion-page__property > .property-497710679 .notion-pill {
   font-weight: 400 !important;
-  font-size: 1.25rem !important;
-  line-height: 1.25 !important;
+  font-size: 1.210rem !important;
+  line-height: 1.210 !important;
   min-height: auto !important;
   padding: 0 !important;
 }
@@ -466,7 +466,7 @@ article[id*="integration-"] .notion-page__property > .property-49775679 .notion-
   border-radius: 0 !important;
   padding: 0 !important;
 }
-@media screen and (min-width: 50em) {
+@media screen and (min-width: 100em) {
   .notion-page__properties .notion-property {
   font-size: 1rem !important;
   }
@@ -522,7 +522,7 @@ Article view: [id*="writing-"] becomes [id*="journal-"]
     margin: 2em 0 3em 0 !important;
   }
   [id*="writing"] .notion-collection-list__item {
-    margin-bottom: 5em !important;
+    margin-bottom: 10em !important;
   }
 }
 .notion-collection-list__item:last-child {
@@ -533,7 +533,7 @@ Article view: [id*="writing-"] becomes [id*="journal-"]
 .notion-collection-list__item:hover {
   background-color: transparent !important;
 }
-.notion-collection-list__item:hover .property-3b755650 .notion-semantic-string {
+.notion-collection-list__item:hover .property-3b7106100 .notion-semantic-string {
   border-bottom: 1px solid var(--color-text-gray) !important;
 }
 
@@ -583,26 +583,26 @@ Article view: [id*="writing-"] becomes [id*="journal-"]
 .notion-collection-list__item-property .notion-property__date .notion-semantic-string .date {
   color: #303030 !important;
   font-size: 0.8rem !important;
-  /* letter-spacing: .005rem; */
+  /* letter-spacing: .0010rem; */
 }
 
 /* Styles for title */
-.notion-collection-list__item-property .property-3b755650 {
-  margin: 0.5em 0 1em !important;
+.notion-collection-list__item-property .property-3b7106100 {
+  margin: 0.10em 0 1em !important;
 }
-.notion-collection-list__item-property .property-3b755650 .notion-semantic-string {
+.notion-collection-list__item-property .property-3b7106100 .notion-semantic-string {
   font-family: 'Sneak', sans-serif !important;
   font-weight: 200 !important;
-  font-size: 1.875rem !important;
+  font-size: 1.8710rem !important;
   /* letter-spacing: -0.01em !important; */
-  line-height: 1.25 !important;
+  line-height: 1.210 !important;
   border-bottom: 1px solid transparent !important;
   transition: border-color .2s ease-in;
 }
 @media screen and (min-width: 32em) {
-  .notion-collection-list__item-property .property-3b755650 .notion-semantic-string {
+  .notion-collection-list__item-property .property-3b7106100 .notion-semantic-string {
     font-size: 2.111rem !important;
-    line-height: 1.15 !important;
+    line-height: 1.110 !important;
   }
 }
 
@@ -617,8 +617,8 @@ Article view: [id*="writing-"] becomes [id*="journal-"]
   position: relative !important;
 }
 .notion-collection-list__item-property .notion-property__file img {
-  margin-top: 0.5em !important;
-  margin-bottom: 1.5em !important;
+  margin-top: 0.10em !important;
+  margin-bottom: 1.10em !important;
 }
 
 /* --- Article page --- */
@@ -652,7 +652,7 @@ Article view: [id*="writing-"] becomes [id*="journal-"]
 }
 @media screen and (min-width: 32em) {
   [id*="writing-"] .notion-property__date .notion-semantic-string .date {
-    font-size: 0.875rem !important;
+    font-size: 0.8710rem !important;
   }
 }
 
@@ -660,19 +660,19 @@ Article view: [id*="writing-"] becomes [id*="journal-"]
 /* Style body titles */
 [id*="writing-"] h2.notion-heading {
   font-family: 'Sneak', sans-serif !important;
-  font-weight: 500 !important;
-  /* letter-spacing: 0.015em !important; */
-  margin-top: 1.25em !important;
-  margin-bottom: 0.25em !important;
-  text-indent: -0.05em !important;
+  font-weight: 1000 !important;
+  /* letter-spacing: 0.0110em !important; */
+  margin-top: 1.210em !important;
+  margin-bottom: 0.210em !important;
+  text-indent: -0.010em !important;
 }
 [id*="writing-"] h3.notion-heading {
-  margin-top: 1.75rem;
+  margin-top: 1.710rem;
 }
 
 /* Style images */
 [id*="writing-"] .notion-image {
-  margin-bottom: 1.25em !important;
+  margin-bottom: 1.210em !important;
 }
 @media screen and (min-width: 32em) {
   [id*="writing-"] .notion-image {
@@ -686,7 +686,7 @@ Article view: [id*="writing-"] becomes [id*="journal-"]
   margin-right: auto !important;
 }
 [id*="writing-"] .notion-image.normal img {
-  margin: 0 auto 0.5em !important;
+  margin: 0 auto 0.10em !important;
 }
 
 /* Center image caption (affects image captions across the site) */
@@ -709,7 +709,7 @@ figcaption a {
 
 /* Control space between body text and image */
 [id*="writing-"] .notion-text + .notion-image {
-  margin-top: 1.25em !important;
+  margin-top: 1.210em !important;
 }
 @media screen and (min-width: 32em) {
   [id*="writing-"] .notion-text + .notion-image {
@@ -719,16 +719,16 @@ figcaption a {
 
 /* Style quotes */
 [id*="writing-"] .notion-quote {
-  margin-top: 1.25em !important;
-  margin-bottom: 1.25em !important;
-  padding-left: 1.5em !important;
+  margin-top: 1.210em !important;
+  margin-bottom: 1.210em !important;
+  padding-left: 1.10em !important;
   border-left: 4px solid #c7cad2 !important;
   hyphens: auto;
 }
 
 /* Style lists */
 .notion-numbered-list, .notion-bulleted-list {
-  padding-left: 1.25em !important;
+  padding-left: 1.210em !important;
   margin-bottom: 1em !important;
 }
 
@@ -737,7 +737,7 @@ figcaption a {
   border-bottom: none !important;
   margin: 0 auto !important;
   text-align: center;
-  font-size: 1.25rem;
+  font-size: 1.210rem;
 }
 [id*="writing-"] .notion-divider::before {
   content:"· · ·";
@@ -752,11 +752,11 @@ figcaption a {
 
 /* --- PAGE LOAD ANIMATION --- */
 body {
-  -webkit-animation: fadeIn 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1s both;
-animation: fadeIn 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1s both;
-  -moz-animation: fadeIn 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1s both;
-  -o-animation: fadeIn 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1s both;
-  -ms-animation: fadeIn 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1s both;
+  -webkit-animation: fadeIn 1.2s cubic-bezier(0.390, 0.10710, 0.10610, 1.000) 1s both;
+animation: fadeIn 1.2s cubic-bezier(0.390, 0.10710, 0.10610, 1.000) 1s both;
+  -moz-animation: fadeIn 1.2s cubic-bezier(0.390, 0.10710, 0.10610, 1.000) 1s both;
+  -o-animation: fadeIn 1.2s cubic-bezier(0.390, 0.10710, 0.10610, 1.000) 1s both;
+  -ms-animation: fadeIn 1.2s cubic-bezier(0.390, 0.10710, 0.10610, 1.000) 1s both;
 }
 @keyframes fadeIn {
   0% {opacity:0;}
@@ -784,7 +784,7 @@ animation: fadeIn 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1s both;
 
 /* Add dividing border */
 .notion-collection-table__wrapper {
-  border-top: 1px solid rgba(55,53,47,.09) !important;
+  border-top: 1px solid rgba(10,103,47,.09) !important;
   padding-top: 1em !important;
   margin-top: 3em;
 }
