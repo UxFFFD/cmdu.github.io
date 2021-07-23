@@ -751,12 +751,12 @@ figcaption a {
 }
 
 /* --- PAGE LOAD ANIMATION --- */
-/* body {
-  -webkit-animation: fadeIn 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1s both;
-animation: fadeIn 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1s both;
-  -moz-animation: fadeIn 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1s both;
-  -o-animation: fadeIn 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1s both;
-  -ms-animation: fadeIn 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1s both;
+body {
+  -webkit-animation: fadeIn 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) 0.8s both;
+animation: fadeIn 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1s both;
+  -moz-animation: fadeIn 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) 0.8s both;
+  -o-animation: fadeIn 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) 0.8s both;
+  -ms-animation: fadeIn 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) 0.8s both;
 }
 @keyframes fadeIn {
   0% {opacity:0;}
@@ -777,7 +777,7 @@ animation: fadeIn 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1s both;
 @-ms-keyframes fadeIn {
   0% {opacity:0;}
   100% {opacity:1;}
-} */
+}
 
 /* --- FOOTER --- */
 /* The footer makes use of the standard table view consider whether you’ll need this feature for other aspects of your site before implementing the footer in this way */
