@@ -95,6 +95,10 @@ strong {
     font-weight: 400 !important;
 }
 
+.notion-divider {
+  border: 1px solid rgba(55,53,47,.09) !important;
+}
+
 /* Styling for page names */
 .notion-header__title {
   font-weight: 400 !important;
