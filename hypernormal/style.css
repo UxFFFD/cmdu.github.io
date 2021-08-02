@@ -14,6 +14,9 @@ a {
 a:hover {
   cursor:url('https://cmdu.github.io/hypernormal/c-15dg.png'), auto !important;  
 }
+.notion-link.notion-file:hover {
+  cursor:url('https://cmdu.github.io/hypernormal/c-15dg.png'), auto !important;  
+}
 
 /* --- Change default colors --- */
 :root {
