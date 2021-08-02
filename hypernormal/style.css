@@ -22,6 +22,7 @@ a:hover {
   --color-text-default-light: #303030 !important;
   --color-text-gray: #303030 !important;
   --collection-card-cover-size-large: 210px !important;
+  --color-ui-hover-bg: #f1f1ed !important;
 }
 @media screen and (min-width: 50em) {
   :root {
