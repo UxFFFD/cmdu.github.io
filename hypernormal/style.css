@@ -69,24 +69,24 @@ body {
   
   /* Hyphenation */
   -webkit-hyphens: auto !important;
-  -webkit-hyphenate-limit-before: 3 !important;
-  -webkit-hyphenate-limit-after: 2 !important;
-  -webkit-hyphenate-limit-chars: 10 3 2 !important;
+  -webkit-hyphenate-limit-before: 4 !important;
+  -webkit-hyphenate-limit-after: 3 !important;
+  -webkit-hyphenate-limit-chars: 10 4 3 !important;
   -webkit-hyphenate-limit-lines: 2 !important;
   -webkit-hyphenate-limit-last: always !important;
   -webkit-hyphenate-limit-zone: 8% !important;
   -moz-hyphens: auto !important;
-  -moz-hyphenate-limit-chars: 10 3 2 !important;
+  -moz-hyphenate-limit-chars: 10 4 3 !important;
   -moz-hyphenate-limit-lines: 2 !important;
   -moz-hyphenate-limit-last: always !important;
   -moz-hyphenate-limit-zone: 8% !important;
   -ms-hyphens: auto !important;
-  -ms-hyphenate-limit-chars: 10 3 2 !important;
+  -ms-hyphenate-limit-chars: 10 4 3 !important;
   -ms-hyphenate-limit-lines: 2 !important;
   -ms-hyphenate-limit-last: always !important;
   -ms-hyphenate-limit-zone: 8% !important;
   hyphens: auto !important;
-  hyphenate-limit-chars: 10 3 2 !important;
+  hyphenate-limit-chars: 10 4 3 !important;
   hyphenate-limit-lines: 2 !important;
   hyphenate-limit-last: always !important;
   hyphenate-limit-zone: 8% !important;
@@ -269,6 +269,7 @@ h3.notion-heading {
   padding: 0 !important;
   margin: .5rem 0 1rem !important;
   font-size: 1.25rem !important;
+  hyphens: none !important;
 }
 
 /* --- Change handling of full width images --- */
