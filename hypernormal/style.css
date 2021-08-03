@@ -822,7 +822,7 @@ animation: fadeIn 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) 0.8s both;
 }
 
 .notion-divider {
-  border: 1px solid rgba(55,53,47,.05) !important;
+  border: 1px solid rgba(55,53,47,.07) !important;
 }
 
 </style>
