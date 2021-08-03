@@ -97,10 +97,6 @@ strong {
     font-weight: 400 !important;
 }
 
-.notion-divider {
-  border: 1px solid rgba(55,53,47,.05) !important;
-}
-
 /* Styling for page names */
 .notion-header__title {
   font-weight: 400 !important;
@@ -823,6 +819,10 @@ animation: fadeIn 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) 0.8s both;
 /* Don’t truncate content on small screens */
 .notion-collection-table__cell .notion-semantic-string {
   white-space: normal !important;
+}
+
+.notion-divider {
+  border: 1px solid rgba(55,53,47,.05) !important;
 }
 
 </style>
