@@ -177,7 +177,7 @@ h3.notion-heading {
   opacity: 1 !important;
 }
 
-.notion-semantic-string .link {
+.notion-semantic-string .link a {
   opacity: 1 !important;
 }
 
