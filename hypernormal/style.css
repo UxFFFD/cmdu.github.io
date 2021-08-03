@@ -97,9 +97,9 @@ strong {
     font-weight: 400 !important;
 }
 
-/* .notion-divider {
-  border-top: 1px solid rgba(55,53,47,.09) !important;
-} */
+.notion-divider {
+  border-top: 1px solid rgba(55,53,47,.05) !important;
+}
 
 /* Styling for page names */
 .notion-header__title {
@@ -485,9 +485,9 @@ article[id*="integration-"] .notion-page__property > .property-49775679 .notion-
 }
 
 /* Hide divider */
-/* .notion-page__properties .notion-divider {
+.notion-page__properties .notion-divider {
   display: none;
-} */
+}
 
 /* - - - - - - - - - - - - - - - - - -
 
