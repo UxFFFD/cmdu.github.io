@@ -177,6 +177,10 @@ h3.notion-heading {
   opacity: 1 !important;
 }
 
+.notion-semantic-string .link {
+  opacity: 1 !important;
+}
+
 .notion-text__content {
   padding: 8px 0 !important;
 }
