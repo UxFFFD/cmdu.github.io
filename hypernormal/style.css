@@ -10,6 +10,7 @@ html {
 }
 a {
   cursor:url('https://cmdu.github.io/hypernormal/c0dg.png'), auto !important;
+  opacity: 1 !important;
 }
 a:hover {
   cursor:url('https://cmdu.github.io/hypernormal/c-15dg.png'), auto !important;  
@@ -174,10 +175,6 @@ h3.notion-heading {
 
 /* Ensure opacity remains at 1 when a heading is a link */
 .notion-heading .notion-semantic-string .link {
-  opacity: 1 !important;
-}
-
-.notion-semantic-string .link a {
   opacity: 1 !important;
 }
 
