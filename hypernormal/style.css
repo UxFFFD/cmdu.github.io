@@ -266,7 +266,7 @@ h3.notion-heading {
   padding: 0 !important;
   margin: .5rem 0 1rem !important;
   font-size: 1.25rem !important;
-  hyphens: none !important;
+  /* hyphens: none !important; */
 }
 
 /* --- Change handling of full width images --- */
