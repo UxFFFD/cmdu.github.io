@@ -825,4 +825,8 @@ animation: fadeIn 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) 0.8s both;
   border: 1px solid rgba(55,53,47,.07) !important;
 }
 
+.notion-bookmark {
+  border: 1px solid rgba(55, 53, 47, 0.16) !important;
+}
+
 </style>
