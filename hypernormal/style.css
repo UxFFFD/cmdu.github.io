@@ -346,7 +346,6 @@ h3.notion-heading {
   padding-bottom: 0 !important;
   padding-left: 0 !important;
   font-size: 1rem !important;
-  overflow: hidden;
 }
 .notion-collection-card__content.no-title {
   padding-top: 0 !important;
