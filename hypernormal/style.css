@@ -4,6 +4,10 @@ html {
   -webkit-text-size-adjust: 100%; /* Prevent font scaling in landscape while allowing user zoom */
 }
 
+.notion-property__select {
+  overflow: hidden !important;
+}
+
 
 * {
   cursor:url('https://cmdu.github.io/hypernormal/c0dg.png'), auto !important;
