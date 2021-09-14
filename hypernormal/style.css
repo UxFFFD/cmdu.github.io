@@ -313,7 +313,7 @@ h3.notion-heading {
   box-shadow: none !important;
   margin-bottom: 44px !important;
   filter: drop-shadow(0px 25px 50px rgba(0, 0, 0, 0.19)) !important;
-  overflow: visible !important;
+  overflow: hidden !important;
   background: transparent !important;
 }
 
