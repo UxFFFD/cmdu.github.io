@@ -6,7 +6,7 @@ html {
 
 .notion-collection-card
 .notion-property__select {
-  overflow: hidden !important;
+  overflow-y: hidden !important;
 }
 
 
