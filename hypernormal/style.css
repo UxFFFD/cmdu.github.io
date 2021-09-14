@@ -4,7 +4,8 @@ html {
   -webkit-text-size-adjust: 100%; /* Prevent font scaling in landscape while allowing user zoom */
 }
 
-.notion-collection-card__property {
+.notion-collection-card
+.notion-property__select {
   overflow: hidden !important;
 }
 
