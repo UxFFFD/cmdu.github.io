@@ -4,10 +4,10 @@ html {
   -webkit-text-size-adjust: 100%; /* Prevent font scaling in landscape while allowing user zoom */
 }
 
-.notion-collection-card
+/* .notion-collection-card
 .notion-property__select {
   overflow-y: hidden !important;
-}
+} */
 
 
 * {
