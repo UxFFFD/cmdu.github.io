@@ -206,7 +206,7 @@ h3.notion-heading {
   margin-right: -20px;
 }
 .nav-link {
-  transition: all .3s ease-in-out;
+  /* transition: all .3s ease-in-out; */
   justify-content: center;
   align-items: center;
   padding: 0 17px 0 0;
