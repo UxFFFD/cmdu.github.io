@@ -313,7 +313,7 @@ h3.notion-heading {
 }
 
 .notion-collection-card:hover {
-  background: transparent !important;
+  background-color: transparent !important;
 }
 .notion-collection-card__cover.large, .notion-collection-card__cover.large>div, .notion-collection-card__cover.large img, .notion-collection-card__cover.medium, .notion-collection-card__cover.medium>div, .notion-collection-card__cover.medium img {
   height: auto !important;
