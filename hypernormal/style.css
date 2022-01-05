@@ -84,10 +84,6 @@ body {
   -ms-hyphenate-limit-last: always !important;
   -ms-hyphenate-limit-zone: 8% !important;
   hyphens: auto !important;
-  hyphenate-limit-chars: 10 4 3 !important;
-  hyphenate-limit-lines: 2 !important;
-  hyphenate-limit-last: always !important;
-  hyphenate-limit-zone: 8% !important;
 }
 
 strong {
