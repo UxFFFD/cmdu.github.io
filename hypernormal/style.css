@@ -749,9 +749,10 @@ figcaption a {
 }
 
 /* --- PAGE LOAD ANIMATION --- */
-body {
+.super-content
+.super-content.max-width {
+  animation: fadeIn 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) 0.8s both;
   -webkit-animation: fadeIn 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) 0.8s both;
-animation: fadeIn 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) 0.8s both;
   -moz-animation: fadeIn 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) 0.8s both;
   -o-animation: fadeIn 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) 0.8s both;
   -ms-animation: fadeIn 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) 0.8s both;
