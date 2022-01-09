@@ -301,6 +301,11 @@ h3.notion-heading {
 
 /* Override default card styling */
 .notion-collection-card {
+  user-select: none;
+  -moz-user-select: none; 
+  -khtml-user-select: none; 
+  -webkit-user-select: none; 
+  -o-user-select: none;
   border-radius: 0 !important;
   box-shadow: none !important;
   margin-bottom: 44px !important;
