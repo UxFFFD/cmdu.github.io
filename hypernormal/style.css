@@ -1,7 +1,7 @@
 html {
   -webkit-text-size-adjust: 100%; /* Prevent font scaling in landscape while allowing user zoom */
 }
-
+/* 
 * {
   cursor:url('https://cmdu.github.io/hypernormal/c0dg.png'), auto !important;
 }
@@ -11,7 +11,7 @@ a {
 }
 a:hover {
   cursor:url('https://cmdu.github.io/hypernormal/c-15dg.png'), auto !important;  
-}
+} */
 
 /* --- Change default colors --- */
 :root {
@@ -225,7 +225,7 @@ h3.notion-heading {
 
 /* --- Adjust the max width of pages --- */
 .super-content.max-width, .notion-header__content.max-width {
-  max-width: 1080px!important;
+  max-width: 1080px !important;
 }
 
 /* --- Remove bottom page padding and adjust page padding for smaller screens --- */
@@ -242,7 +242,7 @@ h3.notion-heading {
 /* --- Remove additional spacing on mobile that is created by column layout on desktop --- */
 @media screen and (max-width:680px) {
   .notion-column {
-    padding: 0px!important;
+    padding: 0px !important;
   }
 }
 
@@ -252,8 +252,8 @@ h3.notion-heading {
 }
 
 .notion-header__icon-wrapper {
-  padding: 2px!important;
-  bottom: 8px!important;
+  padding: 2px !important;
+  bottom: 8px !important;
 }
 
 /* --- Adjust quote styling so it can be used as a standfirst --- */
@@ -304,8 +304,8 @@ h3.notion-heading {
   margin: -1px 0 0 -1px;
   /* border-radius: 0 !important; */
   box-shadow: none !important;
-  -webkit-filter: drop-shadow(0 1.5625em 3.125em rgba(0, 0, 0, 0.19)) !important;
-  filter: drop-shadow(0 1.5625em 3.125em rgba(0, 0, 0, 0.19)) !important;
+  -webkit-filter: drop-shadow(0 0.75em 1.5em rgba(0, 0, 0, 0.15)) !important;
+  filter: drop-shadow(0 0.75em 1.5em rgba(0, 0, 0, 0.15)) !important;
   overflow: visible !important;
   background-color: transparent !important;
   width: calc(100% + 2px);
