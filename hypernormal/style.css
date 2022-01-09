@@ -303,7 +303,6 @@ h3.notion-heading {
 .notion-collection-card {
   border-radius: 0 !important;
   box-shadow: none !important;
-  margin-bottom: 44px !important;
   -webkit-filter: drop-shadow(0 1.5625em 3.125em rgba(0, 0, 0, 0.19)) !important;
   filter: drop-shadow(0 1.5625em 3.125em rgba(0, 0, 0, 0.19)) !important;
   overflow: visible !important;
