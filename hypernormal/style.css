@@ -304,11 +304,11 @@ h3.notion-heading {
   /* margin: -1px 0 0 -1px; */
   /* border-radius: 0 !important; */
   box-shadow: none !important;
-  -webkit-backdrop-filter: drop-shadow(0 0.75em 1.5em rgba(0, 0, 0, 0.15)) !important;
-  -moz-backdrop-filter: drop-shadow(0 0.75em 1.5em rgba(0, 0, 0, 0.15)) !important;
-  -ms-backdrop-filter: drop-shadow(0 0.75em 1.5em rgba(0, 0, 0, 0.15)) !important;
-  -o-backdrop-filter: drop-shadow(0 0.75em 1.5em rgba(0, 0, 0, 0.15)) !important;
-  backdrop-filter: drop-shadow(0 0.75em 1.5em rgba(0, 0, 0, 0.15)) !important;
+  -webkit-filter: drop-shadow(0 0.75em 1.5em rgba(0, 0, 0, 0.15)) !important;
+  -moz-filter: drop-shadow(0 0.75em 1.5em rgba(0, 0, 0, 0.15)) !important;
+  -ms-filter: drop-shadow(0 0.75em 1.5em rgba(0, 0, 0, 0.15)) !important;
+  -o-filter: drop-shadow(0 0.75em 1.5em rgba(0, 0, 0, 0.15)) !important;
+  filter: drop-shadow(0 0.75em 1.5em rgba(0, 0, 0, 0.15)) !important;
   overflow: visible !important;
   background-color: transparent !important;
   /* width: calc(100% + 2px); */
