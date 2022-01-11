@@ -87,6 +87,11 @@ body {
   -ms-hyphenate-limit-lines: 2;
   -ms-hyphenate-limit-last: always;
   -ms-hyphenate-limit-zone: 8%;
+
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  
 }
 
 strong {
