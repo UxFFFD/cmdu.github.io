@@ -1,7 +1,7 @@
 html {
   -webkit-text-size-adjust: 100%; /* Prevent font scaling in landscape while allowing user zoom */
 }
-/* 
+
 * {
   cursor:url('https://cmdu.github.io/hypernormal/c0dg.png'), auto !important;
 }
@@ -11,7 +11,7 @@ a {
 }
 a:hover {
   cursor:url('https://cmdu.github.io/hypernormal/c-15dg.png'), auto !important;  
-} */
+}
 
 /* --- Change default colors --- */
 :root {
@@ -91,7 +91,7 @@ body {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  
+
 }
 
 strong {
