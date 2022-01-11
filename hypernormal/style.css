@@ -320,6 +320,8 @@ h3.notion-heading {
   box-shadow: none !important;
   overflow: visible !important;
   background-color: transparent !important;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
   -webkit-filter: drop-shadow(0 0.75em 1.5em rgba(0, 0, 0, 0.15)) !important;
   -moz-filter: drop-shadow(0 0.75em 1.5em rgba(0, 0, 0, 0.15)) !important;
   -ms-filter: drop-shadow(0 0.75em 1.5em rgba(0, 0, 0, 0.15)) !important;
