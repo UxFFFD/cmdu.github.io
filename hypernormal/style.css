@@ -322,15 +322,18 @@ h3.notion-heading {
   background-color: transparent !important;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  /* width: calc(100% + 2px); */
+}
+
+.notion-collection-gallery {
   -webkit-filter: drop-shadow(0 0.75em 1.5em rgba(0, 0, 0, 0.15)) !important;
   -moz-filter: drop-shadow(0 0.75em 1.5em rgba(0, 0, 0, 0.15)) !important;
   -ms-filter: drop-shadow(0 0.75em 1.5em rgba(0, 0, 0, 0.15)) !important;
   -o-filter: drop-shadow(0 0.75em 1.5em rgba(0, 0, 0, 0.15)) !important;
   filter: drop-shadow(0 0.75em 1.5em rgba(0, 0, 0, 0.15)) !important;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  /* width: calc(100% + 2px); */
 }
 
 @media screen and (min-width: 370px) {
