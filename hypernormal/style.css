@@ -311,6 +311,9 @@ h3.notion-heading {
   -ms-filter: drop-shadow(0 0.75em 1.5em rgba(0, 0, 0, 0.15)) !important;
   -o-filter: drop-shadow(0 0.75em 1.5em rgba(0, 0, 0, 0.15)) !important;
   filter: drop-shadow(0 0.75em 1.5em rgba(0, 0, 0, 0.15)) !important;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
   /* width: calc(100% + 2px); */
 }
 
