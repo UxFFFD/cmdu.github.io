@@ -649,6 +649,7 @@ Article view: [id*="writing-"] becomes [id*="journal-"]
   -webkit-appearance: none !important;
   -moz-appearance: none !important;
   appearance: none !important;
+  background: transparent !important;
 }
 [id*="writing-"] .notion-page__properties {
   margin-bottom: 16px !important;
