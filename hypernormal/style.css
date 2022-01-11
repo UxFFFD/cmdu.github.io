@@ -308,7 +308,7 @@ h3.notion-heading {
   position: relative !important;
   height: auto !important;
   width: 100% !important;
-  border-radius: 1rem  !important;
+  /* border-radius: 1rem  !important; */
   object-fit: contain !important;
   object-position: initial !important;
   padding-bottom: 0  !important;
