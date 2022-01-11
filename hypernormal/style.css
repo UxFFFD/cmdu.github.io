@@ -646,6 +646,9 @@ Article view: [id*="writing-"] becomes [id*="journal-"]
   max-width: 660px !important;
   margin-left: auto !important;
   margin-right: auto !important;
+  -webkit-appearance: none !important;
+  -moz-appearance: none !important;
+  appearance: none !important;
 }
 [id*="writing-"] .notion-page__properties {
   margin-bottom: 16px !important;
