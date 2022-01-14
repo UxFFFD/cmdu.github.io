@@ -329,11 +329,11 @@ h3.notion-heading {
 }
 
 .notion-collection-gallery {
-  -webkit-filter: drop-shadow(0 0.75em 1.5em rgba(0, 0, 0, 0.15)) !important;
-  -moz-filter: drop-shadow(0 0.75em 1.5em rgba(0, 0, 0, 0.15)) !important;
-  -ms-filter: drop-shadow(0 0.75em 1.5em rgba(0, 0, 0, 0.15)) !important;
-  -o-filter: drop-shadow(0 0.75em 1.5em rgba(0, 0, 0, 0.15)) !important;
-  filter: drop-shadow(0 0.75em 1.5em rgba(0, 0, 0, 0.15)) !important;
+  -webkit-filter: drop-shadow(0 25px 50px rgba(0, 0, 0, 0.18)) !important;
+  -moz-filter: drop-shadow(0 25px 50px rgba(0, 0, 0, 0.18)) !important;
+  -ms-filter: drop-shadow(0 25px 50px rgba(0, 0, 0, 0.18)) !important;
+  -o-filter: drop-shadow(0 25px 50px rgba(0, 0, 0, 0.18)) !important;
+  filter: drop-shadow(0 25px 50px rgba(0, 0, 0, 0.18)) !important;
 }
 
 @media screen and (min-width: 370px) {
