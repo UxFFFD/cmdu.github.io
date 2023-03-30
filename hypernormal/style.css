@@ -399,6 +399,10 @@ h3.notion-heading {
   white-space: normal !important;
 }
 
+.notion-collection-card__property-list {
+  font-size: 1rem !important;
+}
+
 /* Add underline to title on hover of project card
 .notion-collection-card.gallery .notion-collection-card__property .notion-semantic-string span {
   border-bottom: 1px solid transparent !important;
