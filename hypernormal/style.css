@@ -389,7 +389,7 @@ h3.notion-heading {
 .notion-collection-card__property .notion-semantic-string {
   display: block !important;
   margin: 1.25em 0 0.1em !important;
-  min-height: 26px;
+  min-height: 26px !important;
   font-family: "Sneak", sans-serif !important;
   font-weight: 400 !important;
   font-size: 1.25rem !important;
