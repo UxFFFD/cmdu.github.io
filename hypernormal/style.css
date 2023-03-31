@@ -374,7 +374,7 @@ h3.notion-heading {
 .notion-collection-card__content {
   padding-bottom: 0 !important;
   padding-left: 0 !important;
-  font-size: 1rem !important;
+  /* font-size: 1rem !important; */
 }
 .notion-collection-card__content.no-title {
   padding-top: 0 !important;
