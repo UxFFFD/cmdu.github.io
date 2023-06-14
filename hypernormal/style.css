@@ -70,24 +70,24 @@ body {
 
   /* Hyphenation */
   hyphens: auto !important;
-  hyphenate-limit-chars: 9 3 3;
+  hyphenate-limit-chars: 10 3 4;
 
   -webkit-hyphens: auto !important;
   -webkit-hyphenate-limit-before: 3 !important;
-  -webkit-hyphenate-limit-after: 3 !important;
-  -webkit-hyphenate-limit-chars: 9 3 3 !important;
+  -webkit-hyphenate-limit-after: 4 !important;
+  -webkit-hyphenate-limit-chars: 10 3 4 !important;
   -webkit-hyphenate-limit-lines: 2 !important;
   -webkit-hyphenate-limit-last: always !important;
   -webkit-hyphenate-limit-zone: 8% !important;
 
   -moz-hyphens: auto !important;
-  -moz-hyphenate-limit-chars: 9 3 3 !important;
+  -moz-hyphenate-limit-chars: 10 3 4 !important;
   -moz-hyphenate-limit-lines: 2 !important;
   -moz-hyphenate-limit-last: always !important;
   -moz-hyphenate-limit-zone: 8% !important;
 
   -ms-hyphens: auto !important;
-  -ms-hyphenate-limit-chars: 9 3 3 !important;
+  -ms-hyphenate-limit-chars: 10 3 4 !important;
   -ms-hyphenate-limit-lines: 2 !important;
   -ms-hyphenate-limit-last: always !important;
   -ms-hyphenate-limit-zone: 8% !important;
