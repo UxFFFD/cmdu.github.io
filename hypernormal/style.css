@@ -70,6 +70,7 @@ body {
 
   /* Hyphenation */
   hyphens: auto !important;
+  hyphenate-limit-chars: 9 3 3;
 
   -webkit-hyphens: auto !important;
   -webkit-hyphenate-limit-before: 3 !important;
